@@ -1,0 +1,884 @@
+﻿Log file open, 03/13/17 20:06:39
+LogInit:Display: Running engine for game: DestinyRedux
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(436574789) SRandInit(436574789).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088627
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.14-03.06.40:169][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.14-03.06.40:169][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.14-03.06.40:189][  0]LogInit: Computer: CLU
+[2017.03.14-03.06.40:189][  0]LogInit: User: Steven4K
+[2017.03.14-03.06.40:189][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.14-03.06.40:189][  0]LogInit: High frequency timer resolution =3.914061 MHz
+[2017.03.14-03.06.40:189][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.14-03.06.40:189][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.14-03.06.40:189][  0]LogMemory: Process Physical Memory: 265.98 MB used, 265.98 MB peak
+[2017.03.14-03.06.40:189][  0]LogMemory: Process Virtual Memory: 262.84 MB used, 262.84 MB peak
+[2017.03.14-03.06.40:189][  0]LogMemory: Physical Memory: 6067.01 MB used,  10266.11 MB free, 16333.11 MB total
+[2017.03.14-03.06.40:189][  0]LogMemory: Virtual Memory: 646.07 MB used,  10266.11 MB free, 134217728.00 MB total
+[2017.03.14-03.06.40:375][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.14-03.06.41:976][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.14-03.06.42:001][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.03.14-03.06.42:001][  0]LogD3D11RHI:       8110/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.14-03.06.42:002][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.14-03.06.42:002][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.14-03.06.42:002][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.14-03.06.42:005][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.14-03.06.42:005][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.14-03.06.42:005][  0]LogWindows: EnumDisplayDevices:
+[2017.03.14-03.06.42:005][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.03.14-03.06.42:005][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.03.14-03.06.42:006][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.03.14-03.06.42:006][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.03.14-03.06.42:006][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.14-03.06.42:006][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.03.14-03.06.42:006][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.14-03.06.42:006][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.14-03.06.42:006][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.14-03.06.42:015][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.14-03.06.42:024][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.14-03.06.42:120][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Intermediate/Shaders/WorkingDirectory/9272/).
+[2017.03.14-03.06.42:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven4K/AppData/Local/Temp/UnrealShaderWorkingDir/02D427A24F77F8A196302EA5EC1E1B94/'.
+[2017.03.14-03.06.42:120][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.14-03.06.43:677][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.14-03.06.43:719][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.14-03.06.43:761][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.14-03.06.43:804][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.14-03.06.43:848][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.14-03.06.43:891][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.14-03.06.43:933][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.14-03.06.43:975][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.14-03.06.44:009][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.14-03.06.44:051][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.14-03.06.44:092][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.14-03.06.44:133][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.14-03.06.44:173][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.14-03.06.44:213][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.14-03.06.44:255][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.14-03.06.44:337][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.14-03.06.44:337][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.14-03.06.44:366][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.14-03.06.44:463][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.14-03.06.44:490][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.14-03.06.44:530][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.14-03.06.44:570][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.14-03.06.44:610][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.14-03.06.44:652][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.14-03.06.44:652][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.14-03.06.45:151][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.14-03.06.45:198][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.14-03.06.45:198][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.14-03.06.45:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.14-03.06.45:198][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.14-03.06.45:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.14-03.06.45:198][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.14-03.06.45:215][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.14-03.06.45:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven4K/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.14-03.06.45:233][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.14-03.06.45:242][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.14-03.06.45:242][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.14-03.06.46:783][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.14-03.06.46:785][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.14-03.06.46:966][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.14-03.06.47:001][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.14-03.06.47:041][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.14-03.06.47:041][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.14-03.06.47:041][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.14-03.06.47:789][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: destinyredux, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2158004914
+[2017.03.14-03.06.47:830][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.03.14-03.06.47:876][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025639 seconds
+[2017.03.14-03.06.47:880][  0]LogUObjectArray: 32476 objects as part of root set at end of initial load.
+[2017.03.14-03.06.47:880][  0]LogUObjectAllocator: 7073584 out of 0 bytes used by permanent object pool.
+[2017.03.14-03.06.47:880][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.14-03.06.49:869][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.14-03.06.49:904][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.14-03.06.50:317][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.14-03.06.50:656][  0]SourceControl: Info Source control is disabled
+[2017.03.14-03.06.50:695][  0]SourceControl: Info Source control is disabled
+[2017.03.14-03.06.50:732][  0]SourceControl: Info Source control is disabled
+[2017.03.14-03.06.50:768][  0]SourceControl: Info Source control is disabled
+[2017.03.14-03.06.51:731][  0]LogEngine: Initializing Engine...
+[2017.03.14-03.06.52:079][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.03.14-03.06.52:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.14-03.06.52:363][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.14-03.06.52:372][  0]LogInit: FAudioDevice initialized.
+[2017.03.14-03.06.52:402][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.14-03.06.52:408][  0]LogInit: Texture streaming: Enabled
+[2017.03.14-03.06.52:484][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.14-03.06.52:556][  0]LogInit: Transaction tracking system initialized
+[2017.03.14-03.06.52:834][  0]BlueprintLog: New page: Editor Load
+[2017.03.14-03.06.53:521][  0]LocalizationService: Info Localization service is disabled
+[2017.03.14-03.06.54:039][  0]LogConsoleResponse:Display: 
+[2017.03.14-03.06.54:247][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.14-03.06.54:248][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.14-03.06.54:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' took 0.02s
+[2017.03.14-03.06.55:079][  0]SourceControl: Info Source control is disabled
+[2017.03.14-03.06.55:079][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.14-03.06.55:080][  0]LightingResults: New page: Lighting Build
+[2017.03.14-03.06.55:110][  0]MapCheck: New page: Map Check
+[2017.03.14-03.06.55:110][  0]LightingResults: New page: Lighting Build
+[2017.03.14-03.06.55:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.14-03.06.55:428][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2017.03.14-03.06.55:428][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.14-03.06.55:741][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.03.14-03.06.55:741][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.03.14-03.06.56:099][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ReDestiny/Widgets/CharacterSelect/CharSelect_SingleChar.CharSelect_SingleChar_C:SetNameplate.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2017.03.14-03.06.56:259][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/ReDestiny/Widgets/Kiosks/Collection_6Column.Collection_6Column_C:SetEachItem.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2017.03.14-03.06.57:866][  0]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.14-03.06.57:892][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.14-03.06.57:893][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.14-03.06.57:950][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.89ms to complete.
+[2017.03.14-03.06.57:950][  0]LogFileHelpers: Loading map 'Level_ShipModular' took 2.871
+[2017.03.14-03.06.58:116][  0]LogCollectionManager: Loaded 0 collections in 0.001864 seconds
+[2017.03.14-03.06.58:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' took 0.01s
+[2017.03.14-03.06.58:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' took 0.01s
+[2017.03.14-03.06.58:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' took 0.01s
+[2017.03.14-03.06.58:187][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.14-03.06.58:194][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2244 classes and 450 folders.
+[2017.03.14-03.06.58:243][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.14-03.06.58:434][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.14-03.06.58:468][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.14-03.06.58:504][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.14-03.06.58:509][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.14-03.06.58:567][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.14-03.06.58:568][  0]LogLoad: (Engine Initialization) Total time: 21.00 seconds
+[2017.03.14-03.06.58:568][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.12 seconds
+[2017.03.14-03.06.58:568][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.14-03.06.58:568][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.14-03.06.58:907][  0]LogOcInput: OculusInput pre-init called
+[2017.03.14-03.06.58:926][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.14-03.06.58:927][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.14-03.06.58:932][  0]LogSlate: Took 0.002521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.14-03.06.58:939][  0]LogSlate: Took 0.002756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.14-03.06.59:073][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.14-03.06.59:245][  1]LogRenderer: Reallocating scene render targets to support 1016x556 NumSamples 1 (Frame:2).
+[2017.03.14-03.06.59:245][  1]LogAssetRegistry: Asset discovery search completed in 11.4366 seconds
+[2017.03.14-03.06.59:245][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.03.14-03.06.59:245][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2017.03.14-03.07.31:075][455]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.14-03.08.11:101][189]LogSavePackage: Save=5.46ms
+[2017.03.14-03.08.11:101][189]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplates8135DD384908CF7F68228C842B0EC4F8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-03.08.11:105][189]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-03.08.58:409][168]LogRenderer: Reallocating scene render targets to support 1016x576 NumSamples 1 (Frame:9879).
+[2017.03.14-03.09.05:894][429]LogRenderer: Reallocating scene render targets to support 1124x576 NumSamples 1 (Frame:10091).
+[2017.03.14-03.10.11:743][674]LogSavePackage: Save=7.58ms
+[2017.03.14-03.10.11:743][674]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Verisimilitude_BGE4F8704D4322299BFA2366A07B84AB56.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Verisimilitude_BG.uasset'
+[2017.03.14-03.10.11:745][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Verisimilitude_BG.uasset
+[2017.03.14-03.10.11:896][674]LogSavePackage: Save=5.17ms
+[2017.03.14-03.10.11:896][674]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplatesCC5AE4684CDB7175BA66BE98CD02998C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-03.10.11:897][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-03.10.42:916][304]LogSavePackage: Save=5.42ms
+[2017.03.14-03.10.42:916][304]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Verisimilitude_IconC38DF2D64715B5BC125DF29AE51B5CC2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Verisimilitude_Icon.uasset'
+[2017.03.14-03.10.42:918][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Verisimilitude_Icon.uasset
+[2017.03.14-03.10.43:066][304]LogSavePackage: Save=5.02ms
+[2017.03.14-03.10.43:066][304]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplatesC6C7E6FF41B3B2601DB8528533DA504C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-03.10.43:067][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-03.10.48:876][945]LogSavePackage: Save=66.00ms
+[2017.03.14-03.10.48:876][945]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModularA78669FB4CBF599E0290E5BDFDD5BC90.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap'
+[2017.03.14-03.10.48:878][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap
+[2017.03.14-03.10.48:984][945]LogSavePackage: Save=21.21ms
+[2017.03.14-03.10.48:984][945]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData736A0826410AA9898A3BA1995122AFFB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.03.14-03.10.48:985][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.03.14-03.11.04:511][607]LogSavePackage: Save=5.02ms
+[2017.03.14-03.11.04:511][607]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplatesA6CEE4534A4D2DA186C79FB6F09243EC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-03.11.04:512][607]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-03.11.06:277][810]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.14-03.14.15:289][339]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/AlchemistCast_BG.jpg]
+[2017.03.14-03.14.15:289][339]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/AlchemistCast_BG.jpg)
+[2017.03.14-03.14.15:308][339]LogTexture:Display: Building textures: AlchemistCast_BG (BGRA8)
+[2017.03.14-03.14.15:315][339]LogEditorFactories: -- imported successfully
+[2017.03.14-03.14.52:409][371]LogEditorViewport: Clicking on Actor (LMB): BP_Wall_1x10_C (BP_Wall_1x12)
+[2017.03.14-03.18.28:690][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Archivist'sSeal_BG.jpg]
+[2017.03.14-03.18.28:690][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Archivist'sSeal_BG.jpg)
+[2017.03.14-03.18.28:693][700]LogTexture:Display: Building textures: Archivist_sSeal_BG (BGRA8)
+[2017.03.14-03.18.28:699][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:710][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/BadgeOfTheMonarchy_BG.jpg]
+[2017.03.14-03.18.28:710][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/BadgeOfTheMonarchy_BG.jpg)
+[2017.03.14-03.18.28:713][700]LogTexture:Display: Building textures: BadgeOfTheMonarchy_BG (BGRA8)
+[2017.03.14-03.18.28:718][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:728][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/BornOfFire_BG.jpg]
+[2017.03.14-03.18.28:728][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/BornOfFire_BG.jpg)
+[2017.03.14-03.18.28:730][700]LogTexture:Display: Building textures: BornOfFire_BG (BGRA8)
+[2017.03.14-03.18.28:735][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:746][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/CrownOfTheNewMonarchy_BG.jpg]
+[2017.03.14-03.18.28:746][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/CrownOfTheNewMonarchy_BG.jpg)
+[2017.03.14-03.18.28:748][700]LogTexture:Display: Building textures: CrownOfTheNewMonarchy_BG (BGRA8)
+[2017.03.14-03.18.28:753][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:763][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/DevourerOfLight_BG.jpg]
+[2017.03.14-03.18.28:764][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/DevourerOfLight_BG.jpg)
+[2017.03.14-03.18.28:767][700]LogTexture:Display: Building textures: DevourerOfLight_BG (BGRA8)
+[2017.03.14-03.18.28:772][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:782][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/EmeraldRook_BG.jpg]
+[2017.03.14-03.18.28:782][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/EmeraldRook_BG.jpg)
+[2017.03.14-03.18.28:785][700]LogTexture:Display: Building textures: EmeraldRook_BG (BGRA8)
+[2017.03.14-03.18.28:790][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:800][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Executor'sRedMark_BG.jpg]
+[2017.03.14-03.18.28:800][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Executor'sRedMark_BG.jpg)
+[2017.03.14-03.18.28:803][700]LogTexture:Display: Building textures: Executor_sRedMark_BG (BGRA8)
+[2017.03.14-03.18.28:809][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:819][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/HearTheCall_BG.jpg]
+[2017.03.14-03.18.28:819][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/HearTheCall_BG.jpg)
+[2017.03.14-03.18.28:822][700]LogTexture:Display: Building textures: HearTheCall_BG (BGRA8)
+[2017.03.14-03.18.28:828][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:837][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Infinitesimal_BG.jpg]
+[2017.03.14-03.18.28:838][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Infinitesimal_BG.jpg)
+[2017.03.14-03.18.28:840][700]LogTexture:Display: Building textures: Infinitesimal_BG (BGRA8)
+[2017.03.14-03.18.28:846][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:856][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/JadeRabbitInsignia_BG.jpg]
+[2017.03.14-03.18.28:856][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/JadeRabbitInsignia_BG.jpg)
+[2017.03.14-03.18.28:859][700]LogTexture:Display: Building textures: JadeRabbitInsignia_BG (BGRA8)
+[2017.03.14-03.18.28:864][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:873][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Kingsbane_BG.jpg]
+[2017.03.14-03.18.28:874][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Kingsbane_BG.jpg)
+[2017.03.14-03.18.28:877][700]LogTexture:Display: Building textures: Kingsbane_BG (BGRA8)
+[2017.03.14-03.18.28:880][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:890][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/LaureaPrima_BG.jpg]
+[2017.03.14-03.18.28:890][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/LaureaPrima_BG.jpg)
+[2017.03.14-03.18.28:893][700]LogTexture:Display: Building textures: LaureaPrima_BG (BGRA8)
+[2017.03.14-03.18.28:897][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:908][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/NoPuppet,I_BG.jpg]
+[2017.03.14-03.18.28:908][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/NoPuppet,I_BG.jpg)
+[2017.03.14-03.18.28:911][700]LogTexture:Display: Building textures: NoPuppet_I_BG (BGRA8)
+[2017.03.14-03.18.28:915][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:924][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OfLightAndHunger_BG.jpg]
+[2017.03.14-03.18.28:924][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OfLightAndHunger_BG.jpg)
+[2017.03.14-03.18.28:927][700]LogTexture:Display: Building textures: OfLightAndHunger_BG (BGRA8)
+[2017.03.14-03.18.28:932][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:941][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheDead_BG.jpg]
+[2017.03.14-03.18.28:941][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheDead_BG.jpg)
+[2017.03.14-03.18.28:944][700]LogTexture:Display: Building textures: OmenOfTheDead_BG (BGRA8)
+[2017.03.14-03.18.28:949][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:958][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheDeadII_BG.jpg]
+[2017.03.14-03.18.28:958][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheDeadII_BG.jpg)
+[2017.03.14-03.18.28:960][700]LogTexture:Display: Building textures: OmenOfTheDeadII_BG (BGRA8)
+[2017.03.14-03.18.28:965][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:973][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheDecayer_BG.jpg]
+[2017.03.14-03.18.28:974][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheDecayer_BG.jpg)
+[2017.03.14-03.18.28:976][700]LogTexture:Display: Building textures: OmenOfTheDecayer_BG (BGRA8)
+[2017.03.14-03.18.28:980][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.28:989][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheExodus_BG.jpg]
+[2017.03.14-03.18.28:989][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OmenOfTheExodus_BG.jpg)
+[2017.03.14-03.18.28:992][700]LogTexture:Display: Building textures: OmenOfTheExodus_BG (BGRA8)
+[2017.03.14-03.18.28:995][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:004][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OurKingdom_BG.jpg]
+[2017.03.14-03.18.29:004][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/OurKingdom_BG.jpg)
+[2017.03.14-03.18.29:007][700]LogTexture:Display: Building textures: OurKingdom_BG (BGRA8)
+[2017.03.14-03.18.29:012][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:022][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/RuneOfTheMachine_BG.jpg]
+[2017.03.14-03.18.29:022][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/RuneOfTheMachine_BG.jpg)
+[2017.03.14-03.18.29:024][700]LogTexture:Display: Building textures: RuneOfTheMachine_BG (BGRA8)
+[2017.03.14-03.18.29:029][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:038][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/ShieldOfTheTraveler_BG.jpg]
+[2017.03.14-03.18.29:038][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/ShieldOfTheTraveler_BG.jpg)
+[2017.03.14-03.18.29:041][700]LogTexture:Display: Building textures: ShieldOfTheTraveler_BG (BGRA8)
+[2017.03.14-03.18.29:046][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:055][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheIronLords_BG.jpg]
+[2017.03.14-03.18.29:055][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheIronLords_BG.jpg)
+[2017.03.14-03.18.29:058][700]LogTexture:Display: Building textures: SigilOfTheIronLords_BG (BGRA8)
+[2017.03.14-03.18.29:063][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:071][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheSeven_BG.jpg]
+[2017.03.14-03.18.29:072][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheSeven_BG.jpg)
+[2017.03.14-03.18.29:074][700]LogTexture:Display: Building textures: SigilOfTheSeven_BG (BGRA8)
+[2017.03.14-03.18.29:079][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:088][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheWarCult_BG.jpg]
+[2017.03.14-03.18.29:088][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheWarCult_BG.jpg)
+[2017.03.14-03.18.29:090][700]LogTexture:Display: Building textures: SigilOfTheWarCult_BG (BGRA8)
+[2017.03.14-03.18.29:095][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:104][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheWarCultII_BG.jpg]
+[2017.03.14-03.18.29:104][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SigilOfTheWarCultII_BG.jpg)
+[2017.03.14-03.18.29:107][700]LogTexture:Display: Building textures: SigilOfTheWarCultII_BG (BGRA8)
+[2017.03.14-03.18.29:112][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:121][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SymbolOfTheWolf_BG.jpg]
+[2017.03.14-03.18.29:121][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/SymbolOfTheWolf_BG.jpg)
+[2017.03.14-03.18.29:123][700]LogTexture:Display: Building textures: SymbolOfTheWolf_BG (BGRA8)
+[2017.03.14-03.18.29:128][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:137][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/TheAscendant_BG.jpg]
+[2017.03.14-03.18.29:137][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/TheAscendant_BG.jpg)
+[2017.03.14-03.18.29:140][700]LogTexture:Display: Building textures: TheAscendant_BG (BGRA8)
+[2017.03.14-03.18.29:145][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:154][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/ThoriumLeaf_BG.jpg]
+[2017.03.14-03.18.29:154][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/ThoriumLeaf_BG.jpg)
+[2017.03.14-03.18.29:157][700]LogTexture:Display: Building textures: ThoriumLeaf_BG (BGRA8)
+[2017.03.14-03.18.29:162][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:171][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Verisimilitude_BG.jpg]
+[2017.03.14-03.18.29:171][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/Verisimilitude_BG.jpg)
+[2017.03.14-03.18.29:173][700]LogTexture:Display: Building textures: Verisimilitude_BG (BGRA8)
+[2017.03.14-03.18.29:179][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:188][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/WinterbornMark_BG.jpg]
+[2017.03.14-03.18.29:188][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/WinterbornMark_BG.jpg)
+[2017.03.14-03.18.29:191][700]LogTexture:Display: Building textures: WinterbornMark_BG (BGRA8)
+[2017.03.14-03.18.29:196][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.29:205][700]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/WormGods'Servant_BG.jpg]
+[2017.03.14-03.18.29:206][700]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems1/WormGods'Servant_BG.jpg)
+[2017.03.14-03.18.29:209][700]LogTexture:Display: Building textures: WormGods_Servant_BG (BGRA8)
+[2017.03.14-03.18.29:214][700]LogEditorFactories: -- imported successfully
+[2017.03.14-03.18.36:747][416]LogSavePackage: Save=5.88ms
+[2017.03.14-03.18.36:747][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Archivist_sSeal_BGAAC4C8394D86F093C653F3B01F515185.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Archivist_sSeal_BG.uasset'
+[2017.03.14-03.18.36:749][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Archivist_sSeal_BG.uasset
+[2017.03.14-03.18.36:807][416]LogSavePackage: Save=5.25ms
+[2017.03.14-03.18.36:807][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BadgeOfTheMonarchy_BGDF251C7A4ED10C8019FCD1AE82148C20.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BadgeOfTheMonarchy_BG.uasset'
+[2017.03.14-03.18.36:809][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BadgeOfTheMonarchy_BG.uasset
+[2017.03.14-03.18.36:870][416]LogSavePackage: Save=5.77ms
+[2017.03.14-03.18.36:870][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BornOfFire_BG979D0AEE4126F8220DA264880D2DFC4F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BornOfFire_BG.uasset'
+[2017.03.14-03.18.36:872][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BornOfFire_BG.uasset
+[2017.03.14-03.18.36:930][416]LogSavePackage: Save=6.57ms
+[2017.03.14-03.18.36:930][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/CrownOfTheNewMonarchy_BG26BBA68045B8EC76739A2D827E974C60.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/CrownOfTheNewMonarchy_BG.uasset'
+[2017.03.14-03.18.36:933][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/CrownOfTheNewMonarchy_BG.uasset
+[2017.03.14-03.18.36:993][416]LogSavePackage: Save=9.16ms
+[2017.03.14-03.18.36:993][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DevourerOfLight_BGF311B4394306B6DDA7168F97B1FFD779.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/DevourerOfLight_BG.uasset'
+[2017.03.14-03.18.36:996][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/DevourerOfLight_BG.uasset
+[2017.03.14-03.18.37:053][416]LogSavePackage: Save=6.19ms
+[2017.03.14-03.18.37:053][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EmeraldRook_BGA658A27C46E7E7E175189EB1661AA665.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmeraldRook_BG.uasset'
+[2017.03.14-03.18.37:055][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmeraldRook_BG.uasset
+[2017.03.14-03.18.37:115][416]LogSavePackage: Save=7.02ms
+[2017.03.14-03.18.37:115][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Executor_sRedMark_BGAB8B4D0943AAE357EABD2FB12F7ED832.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Executor_sRedMark_BG.uasset'
+[2017.03.14-03.18.37:117][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Executor_sRedMark_BG.uasset
+[2017.03.14-03.18.37:177][416]LogSavePackage: Save=7.47ms
+[2017.03.14-03.18.37:177][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/HearTheCall_BGD446B3B04959C446C28E1190CB3DD449.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/HearTheCall_BG.uasset'
+[2017.03.14-03.18.37:179][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/HearTheCall_BG.uasset
+[2017.03.14-03.18.37:238][416]LogSavePackage: Save=8.13ms
+[2017.03.14-03.18.37:238][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Infinitesimal_BG6F21F32A4F6A206800CD43974D9D5D83.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Infinitesimal_BG.uasset'
+[2017.03.14-03.18.37:240][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Infinitesimal_BG.uasset
+[2017.03.14-03.18.37:301][416]LogSavePackage: Save=7.06ms
+[2017.03.14-03.18.37:301][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/JadeRabbitInsignia_BG57C1395E42DBE6B88C3A97B62CE8A9AC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/JadeRabbitInsignia_BG.uasset'
+[2017.03.14-03.18.37:303][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/JadeRabbitInsignia_BG.uasset
+[2017.03.14-03.18.37:362][416]LogSavePackage: Save=6.86ms
+[2017.03.14-03.18.37:362][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Kingsbane_BGA4EBFEF44695771C8600DE80B094D0E3.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Kingsbane_BG.uasset'
+[2017.03.14-03.18.37:364][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Kingsbane_BG.uasset
+[2017.03.14-03.18.37:426][416]LogSavePackage: Save=9.08ms
+[2017.03.14-03.18.37:426][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/LaureaPrima_BG42CBA1004B221F880405E887F7421651.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/LaureaPrima_BG.uasset'
+[2017.03.14-03.18.37:428][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/LaureaPrima_BG.uasset
+[2017.03.14-03.18.37:488][416]LogSavePackage: Save=9.19ms
+[2017.03.14-03.18.37:488][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/NoPuppet_I_BG8ABAD0F1489E32F0CCAB428A8559F388.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/NoPuppet_I_BG.uasset'
+[2017.03.14-03.18.37:490][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/NoPuppet_I_BG.uasset
+[2017.03.14-03.18.37:548][416]LogSavePackage: Save=7.52ms
+[2017.03.14-03.18.37:548][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/OfLightAndHunger_BGA6FE069E41099B9CF5997E81ED715D51.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OfLightAndHunger_BG.uasset'
+[2017.03.14-03.18.37:550][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OfLightAndHunger_BG.uasset
+[2017.03.14-03.18.37:604][416]LogSavePackage: Save=5.27ms
+[2017.03.14-03.18.37:604][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/OmenOfTheDead_BG64D7B29E4E83F6FE0BBD2587FEA4AE4C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheDead_BG.uasset'
+[2017.03.14-03.18.37:606][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheDead_BG.uasset
+[2017.03.14-03.18.37:660][416]LogSavePackage: Save=5.39ms
+[2017.03.14-03.18.37:660][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/OmenOfTheDeadII_BG0686F0704D924B12AA33CF86F6641719.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheDeadII_BG.uasset'
+[2017.03.14-03.18.37:662][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheDeadII_BG.uasset
+[2017.03.14-03.18.37:719][416]LogSavePackage: Save=6.86ms
+[2017.03.14-03.18.37:719][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/OmenOfTheDecayer_BGFF8F6BF741AAA36E0018E7A9B6BB194A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheDecayer_BG.uasset'
+[2017.03.14-03.18.37:722][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheDecayer_BG.uasset
+[2017.03.14-03.18.37:783][416]LogSavePackage: Save=6.40ms
+[2017.03.14-03.18.37:783][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/OmenOfTheExodus_BG7B055AD54312F1E4DE2B659AD68E111E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheExodus_BG.uasset'
+[2017.03.14-03.18.37:785][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OmenOfTheExodus_BG.uasset
+[2017.03.14-03.18.37:851][416]LogSavePackage: Save=7.99ms
+[2017.03.14-03.18.37:851][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/OurKingdom_BGB209724D4CF1478C7600678CE22D6A15.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OurKingdom_BG.uasset'
+[2017.03.14-03.18.37:853][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/OurKingdom_BG.uasset
+[2017.03.14-03.18.37:909][416]LogSavePackage: Save=6.03ms
+[2017.03.14-03.18.37:909][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/RuneOfTheMachine_BG82DBDC8647D1A1A4209C56BC73CC6AE3.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/RuneOfTheMachine_BG.uasset'
+[2017.03.14-03.18.37:912][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/RuneOfTheMachine_BG.uasset
+[2017.03.14-03.18.37:969][416]LogSavePackage: Save=8.02ms
+[2017.03.14-03.18.37:969][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ShieldOfTheTraveler_BG674D6220473C1C47FA4A4CBC0C8C71AF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ShieldOfTheTraveler_BG.uasset'
+[2017.03.14-03.18.37:971][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ShieldOfTheTraveler_BG.uasset
+[2017.03.14-03.18.38:028][416]LogSavePackage: Save=6.57ms
+[2017.03.14-03.18.38:028][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheIronLords_BGE9AB1A9846A181D9D244A3B856DEB105.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheIronLords_BG.uasset'
+[2017.03.14-03.18.38:030][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheIronLords_BG.uasset
+[2017.03.14-03.18.38:086][416]LogSavePackage: Save=7.13ms
+[2017.03.14-03.18.38:086][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheSeven_BG5CC247CE4012A790CFC0E7BD9EA7E0BE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheSeven_BG.uasset'
+[2017.03.14-03.18.38:088][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheSeven_BG.uasset
+[2017.03.14-03.18.38:144][416]LogSavePackage: Save=5.93ms
+[2017.03.14-03.18.38:144][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheWarCult_BG96C9F506452E045F88B563BEDB62DFCC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheWarCult_BG.uasset'
+[2017.03.14-03.18.38:146][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheWarCult_BG.uasset
+[2017.03.14-03.18.38:201][416]LogSavePackage: Save=5.23ms
+[2017.03.14-03.18.38:201][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheWarCultII_BGC0EA97ED4E8231BC22C7B3AB8FB4A454.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheWarCultII_BG.uasset'
+[2017.03.14-03.18.38:204][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheWarCultII_BG.uasset
+[2017.03.14-03.18.38:260][416]LogSavePackage: Save=6.84ms
+[2017.03.14-03.18.38:260][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SymbolOfTheWolf_BGDF8FB36B47354D6ABE43149975B0C414.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SymbolOfTheWolf_BG.uasset'
+[2017.03.14-03.18.38:262][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SymbolOfTheWolf_BG.uasset
+[2017.03.14-03.18.38:319][416]LogSavePackage: Save=6.67ms
+[2017.03.14-03.18.38:319][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/TheAscendant_BG171BBD6B49ED8A1B1DCFEB969850E45E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/TheAscendant_BG.uasset'
+[2017.03.14-03.18.38:321][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/TheAscendant_BG.uasset
+[2017.03.14-03.18.38:378][416]LogSavePackage: Save=7.49ms
+[2017.03.14-03.18.38:378][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ThoriumLeaf_BG93CA662D41A637317B2CC9B907EDA124.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ThoriumLeaf_BG.uasset'
+[2017.03.14-03.18.38:380][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ThoriumLeaf_BG.uasset
+[2017.03.14-03.18.38:440][416]LogSavePackage: Save=9.84ms
+[2017.03.14-03.18.38:440][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Verisimilitude_BG6462E857413388ECA0BFE7AC30F7EC5A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Verisimilitude_BG.uasset'
+[2017.03.14-03.18.38:442][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Verisimilitude_BG.uasset
+[2017.03.14-03.18.38:493][416]LogSavePackage: Save=4.24ms
+[2017.03.14-03.18.38:493][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/WinterbornMark_BG9D9866B44E5D1D42C78643970D1E4433.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/WinterbornMark_BG.uasset'
+[2017.03.14-03.18.38:494][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/WinterbornMark_BG.uasset
+[2017.03.14-03.18.38:552][416]LogSavePackage: Save=9.16ms
+[2017.03.14-03.18.38:552][416]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/WormGods_Servant_BG3B19B49F4A306E8623187DAC841E24B1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/WormGods_Servant_BG.uasset'
+[2017.03.14-03.18.38:554][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/WormGods_Servant_BG.uasset
+[2017.03.14-03.18.42:448][775]LogSavePackage: Save=7.00ms
+[2017.03.14-03.18.42:448][775]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/AlchemistCast_BG9B8EFEFD471A55AFC1C4A784BB16914E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/AlchemistCast_BG.uasset'
+[2017.03.14-03.18.42:450][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/AlchemistCast_BG.uasset
+[2017.03.14-03.37.08:308][317]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems1\ScarOfRadegast_BG.jpg)
+[2017.03.14-03.37.08:315][317]LogTexture:Display: Building textures: ScarOfRadegast_BG (BGRA8)
+[2017.03.14-03.37.09:667][321]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.14-03.37.23:236][818]LogSavePackage: Save=7.31ms
+[2017.03.14-03.37.23:236][818]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ScarOfRadegast_BGFEBCD3D14E384783788A88ADD571686D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ScarOfRadegast_BG.uasset'
+[2017.03.14-03.37.23:239][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ScarOfRadegast_BG.uasset
+[2017.03.14-03.37.55:344][990]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems1\ScarOfRadegast_Icon.jpg)
+[2017.03.14-03.37.55:346][990]LogTexture:Display: Building textures: ScarOfRadegast_Icon (AutoDXT)
+[2017.03.14-03.38.04:357][779]LogTexture:Display: Building textures: ScarOfRadegast_Icon (BGRA8)
+[2017.03.14-03.38.05:674][915]LogSavePackage: Save=4.91ms
+[2017.03.14-03.38.05:674][915]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ScarOfRadegast_IconDDB4EE4E4B6C86D1B115919147C885FE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ScarOfRadegast_Icon.uasset'
+[2017.03.14-03.38.05:676][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ScarOfRadegast_Icon.uasset
+[2017.03.14-03.41.02:552][719]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ReDestiny/Maps/Level_ShipModular' took 0.015
+[2017.03.14-03.41.02:553][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates] ([1] browsable assets)...
+[2017.03.14-03.41.02:553][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates]
+[2017.03.14-03.41.02:613][719]LogSavePackage: Save=5.18ms
+[2017.03.14-03.41.02:613][719]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplates_Auto1F278738B46788B6B5158F99F4D90051F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates_Auto1.uasset'
+[2017.03.14-03.41.02:614][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates_Auto1.uasset
+[2017.03.14-03.41.02:614][719]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.03.14-03.44.38:331][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BladeOfCrota_Icon.jpg)
+[2017.03.14-03.44.38:337][ 27]LogTexture:Display: Building textures: BladeOfCrota_Icon (AutoDXT)
+[2017.03.14-03.44.38:348][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BlessingOfTheKnight_Icon.jpg)
+[2017.03.14-03.44.38:351][ 27]LogTexture:Display: Building textures: BlessingOfTheKnight_Icon (AutoDXT)
+[2017.03.14-03.44.38:365][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BlessingOfWorlds_Icon.jpg)
+[2017.03.14-03.44.38:369][ 27]LogTexture:Display: Building textures: BlessingOfWorlds_Icon (AutoDXT)
+[2017.03.14-03.44.38:383][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Crota'sEnd_Icon.jpg)
+[2017.03.14-03.44.38:388][ 27]LogTexture:Display: Building textures: Crota_sEnd_Icon (AutoDXT)
+[2017.03.14-03.44.38:400][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\CrownOfTheSovereign_Icon.jpg)
+[2017.03.14-03.44.38:405][ 27]LogTexture:Display: Building textures: CrownOfTheSovereign_Icon (AutoDXT)
+[2017.03.14-03.44.38:415][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\DarkHarvest_Icon.jpg)
+[2017.03.14-03.44.38:419][ 27]LogTexture:Display: Building textures: DarkHarvest_Icon (AutoDXT)
+[2017.03.14-03.44.38:431][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\ElementOfTheDeadSun_Icon.jpg)
+[2017.03.14-03.44.38:433][ 27]LogTexture:Display: Building textures: ElementOfTheDeadSun_Icon (AutoDXT)
+[2017.03.14-03.44.38:442][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\ElementOfTheShifter_Icon.jpg)
+[2017.03.14-03.44.38:444][ 27]LogTexture:Display: Building textures: ElementOfTheShifter_Icon (AutoDXT)
+[2017.03.14-03.44.38:456][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\EmperorSigil_Icon.jpg)
+[2017.03.14-03.44.38:459][ 27]LogTexture:Display: Building textures: EmperorSigil_Icon (AutoDXT)
+[2017.03.14-03.44.38:469][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\ErisMorn_Icon.jpg)
+[2017.03.14-03.44.38:472][ 27]LogTexture:Display: Building textures: ErisMorn_Icon (AutoDXT)
+[2017.03.14-03.44.38:485][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\EyeOfOsiris_Icon.jpg)
+[2017.03.14-03.44.38:487][ 27]LogTexture:Display: Building textures: EyeOfOsiris_Icon (AutoDXT)
+[2017.03.14-03.44.38:500][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\FirmDecree_Icon.jpg)
+[2017.03.14-03.44.38:505][ 27]LogTexture:Display: Building textures: FirmDecree_Icon (AutoDXT)
+[2017.03.14-03.44.38:514][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Frame'sHonor_Icon.jpg)
+[2017.03.14-03.44.38:516][ 27]LogTexture:Display: Building textures: Frame_sHonor_Icon (AutoDXT)
+[2017.03.14-03.44.38:526][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\InsulaThesauraria_Icon.jpg)
+[2017.03.14-03.44.38:528][ 27]LogTexture:Display: Building textures: InsulaThesauraria_Icon (AutoDXT)
+[2017.03.14-03.44.38:539][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Judgment'sRightHand_Icon.jpg)
+[2017.03.14-03.44.38:544][ 27]LogTexture:Display: Building textures: Judgment_sRightHand_Icon (AutoDXT)
+[2017.03.14-03.44.38:554][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Kellbreaker_Icon.jpg)
+[2017.03.14-03.44.38:559][ 27]LogTexture:Display: Building textures: Kellbreaker_Icon (AutoDXT)
+[2017.03.14-03.44.38:568][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\MidnightHunt_Icon.jpg)
+[2017.03.14-03.44.38:570][ 27]LogTexture:Display: Building textures: MidnightHunt_Icon (AutoDXT)
+[2017.03.14-03.44.38:581][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\MoonOfOsiris_Icon.jpg)
+[2017.03.14-03.44.38:583][ 27]LogTexture:Display: Building textures: MoonOfOsiris_Icon (AutoDXT)
+[2017.03.14-03.44.38:595][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\PrinceSigil_Icon.jpg)
+[2017.03.14-03.44.38:599][ 27]LogTexture:Display: Building textures: PrinceSigil_Icon (AutoDXT)
+[2017.03.14-03.44.38:609][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Queen'sGuardCrest_Icon.jpg)
+[2017.03.14-03.44.38:614][ 27]LogTexture:Display: Building textures: Queen_sGuardCrest_Icon (AutoDXT)
+[2017.03.14-03.44.38:625][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfDeviance_Icon.jpg)
+[2017.03.14-03.44.38:628][ 27]LogTexture:Display: Building textures: SigilOfDeviance_Icon (AutoDXT)
+[2017.03.14-03.44.38:640][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfNight_Icon.jpg)
+[2017.03.14-03.44.38:642][ 27]LogTexture:Display: Building textures: SigilOfNight_Icon (AutoDXT)
+[2017.03.14-03.44.38:653][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfTheComingWar_Icon.jpg)
+[2017.03.14-03.44.38:655][ 27]LogTexture:Display: Building textures: SigilOfTheComingWar_Icon (AutoDXT)
+[2017.03.14-03.44.38:666][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfTheYoungWolf_Icon.jpg)
+[2017.03.14-03.44.38:671][ 27]LogTexture:Display: Building textures: SigilOfTheYoungWolf_Icon (AutoDXT)
+[2017.03.14-03.44.38:682][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SignOfTheInfinite_Icon.jpg)
+[2017.03.14-03.44.38:685][ 27]LogTexture:Display: Building textures: SignOfTheInfinite_Icon (AutoDXT)
+[2017.03.14-03.44.38:695][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\StarOfDawn_Icon.jpg)
+[2017.03.14-03.44.38:705][ 27]LogTexture:Display: Building textures: StarOfDawn_Icon (BC5)
+[2017.03.14-03.44.38:718][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SunOfOsiris_Icon.jpg)
+[2017.03.14-03.44.38:720][ 27]LogTexture:Display: Building textures: SunOfOsiris_Icon (AutoDXT)
+[2017.03.14-03.44.38:733][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SUROSFire_Icon.jpg)
+[2017.03.14-03.44.38:735][ 27]LogTexture:Display: Building textures: SUROSFire_Icon (AutoDXT)
+[2017.03.14-03.44.38:748][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SwordsOfDawn_Icon.jpg)
+[2017.03.14-03.44.38:759][ 27]LogTexture:Display: Building textures: SwordsOfDawn_Icon (BC5)
+[2017.03.14-03.44.38:767][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SymbolOfTheMagister_Icon.jpg)
+[2017.03.14-03.44.38:769][ 27]LogTexture:Display: Building textures: SymbolOfTheMagister_Icon (AutoDXT)
+[2017.03.14-03.44.38:782][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SymbolOfTheSorcerer_Icon.jpg)
+[2017.03.14-03.44.38:784][ 27]LogTexture:Display: Building textures: SymbolOfTheSorcerer_Icon (AutoDXT)
+[2017.03.14-03.44.38:799][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\VigilamusNoctu_Icon.jpg)
+[2017.03.14-03.44.38:804][ 27]LogTexture:Display: Building textures: VigilamusNoctu_Icon (AutoDXT)
+[2017.03.14-03.44.38:818][ 27]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BeBrave_Icon.jpg)
+[2017.03.14-03.44.38:821][ 27]LogTexture:Display: Building textures: BeBrave_Icon (AutoDXT)
+[2017.03.14-03.45.02:734][759]LogTexture:Display: Building textures: BeBrave_Icon (BGRA8)
+[2017.03.14-03.45.02:739][759]LogTexture:Display: Building textures: BladeOfCrota_Icon (BGRA8)
+[2017.03.14-03.45.02:743][759]LogTexture:Display: Building textures: BlessingOfTheKnight_Icon (BGRA8)
+[2017.03.14-03.45.02:748][759]LogTexture:Display: Building textures: BlessingOfWorlds_Icon (BGRA8)
+[2017.03.14-03.45.02:753][759]LogTexture:Display: Building textures: Crota_sEnd_Icon (BGRA8)
+[2017.03.14-03.45.02:758][759]LogTexture:Display: Building textures: CrownOfTheSovereign_Icon (BGRA8)
+[2017.03.14-03.45.02:762][759]LogTexture:Display: Building textures: DarkHarvest_Icon (BGRA8)
+[2017.03.14-03.45.02:767][759]LogTexture:Display: Building textures: ElementOfTheDeadSun_Icon (BGRA8)
+[2017.03.14-03.45.02:772][759]LogTexture:Display: Building textures: ElementOfTheShifter_Icon (BGRA8)
+[2017.03.14-03.45.02:776][759]LogTexture:Display: Building textures: EmperorSigil_Icon (BGRA8)
+[2017.03.14-03.45.02:781][759]LogTexture:Display: Building textures: ErisMorn_Icon (BGRA8)
+[2017.03.14-03.45.02:786][759]LogTexture:Display: Building textures: EyeOfOsiris_Icon (BGRA8)
+[2017.03.14-03.45.02:790][759]LogTexture:Display: Building textures: FirmDecree_Icon (BGRA8)
+[2017.03.14-03.45.02:795][759]LogTexture:Display: Building textures: Frame_sHonor_Icon (BGRA8)
+[2017.03.14-03.45.02:800][759]LogTexture:Display: Building textures: InsulaThesauraria_Icon (BGRA8)
+[2017.03.14-03.45.02:804][759]LogTexture:Display: Building textures: Judgment_sRightHand_Icon (BGRA8)
+[2017.03.14-03.45.02:809][759]LogTexture:Display: Building textures: Kellbreaker_Icon (BGRA8)
+[2017.03.14-03.45.02:814][759]LogTexture:Display: Building textures: MidnightHunt_Icon (BGRA8)
+[2017.03.14-03.45.02:819][759]LogTexture:Display: Building textures: MoonOfOsiris_Icon (BGRA8)
+[2017.03.14-03.45.02:824][759]LogTexture:Display: Building textures: PrinceSigil_Icon (BGRA8)
+[2017.03.14-03.45.02:829][759]LogTexture:Display: Building textures: Queen_sGuardCrest_Icon (BGRA8)
+[2017.03.14-03.45.02:833][759]LogTexture:Display: Building textures: SigilOfDeviance_Icon (BGRA8)
+[2017.03.14-03.45.02:839][759]LogTexture:Display: Building textures: SigilOfNight_Icon (BGRA8)
+[2017.03.14-03.45.02:844][759]LogTexture:Display: Building textures: SigilOfTheComingWar_Icon (BGRA8)
+[2017.03.14-03.45.02:848][759]LogTexture:Display: Building textures: SigilOfTheYoungWolf_Icon (BGRA8)
+[2017.03.14-03.45.02:853][759]LogTexture:Display: Building textures: SignOfTheInfinite_Icon (BGRA8)
+[2017.03.14-03.45.02:858][759]LogTexture:Display: Building textures: StarOfDawn_Icon (BGRA8)
+[2017.03.14-03.45.02:863][759]LogTexture:Display: Building textures: SunOfOsiris_Icon (BGRA8)
+[2017.03.14-03.45.02:868][759]LogTexture:Display: Building textures: SUROSFire_Icon (BGRA8)
+[2017.03.14-03.45.02:873][759]LogTexture:Display: Building textures: SwordsOfDawn_Icon (BGRA8)
+[2017.03.14-03.45.02:877][759]LogTexture:Display: Building textures: SymbolOfTheMagister_Icon (BGRA8)
+[2017.03.14-03.45.02:882][759]LogTexture:Display: Building textures: SymbolOfTheSorcerer_Icon (BGRA8)
+[2017.03.14-03.45.02:887][759]LogTexture:Display: Building textures: VigilamusNoctu_Icon (BGRA8)
+[2017.03.14-03.45.25:993][748]LogTexture:Display: Building textures: StarOfDawn_Icon (BGRA8)
+[2017.03.14-03.45.26:890][823]LogTexture:Display: Building textures: SwordsOfDawn_Icon (BGRA8)
+[2017.03.14-03.45.31:378][212]LogSavePackage: Save=5.57ms
+[2017.03.14-03.45.31:378][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BeBrave_Icon116F9A484C00831BD5B16091A261D71F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BeBrave_Icon.uasset'
+[2017.03.14-03.45.31:380][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BeBrave_Icon.uasset
+[2017.03.14-03.45.31:390][212]LogSavePackage: Save=5.41ms
+[2017.03.14-03.45.31:390][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BladeOfCrota_IconDD67691640BDF9039EAFCAB5F9E29DD9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BladeOfCrota_Icon.uasset'
+[2017.03.14-03.45.31:392][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BladeOfCrota_Icon.uasset
+[2017.03.14-03.45.31:404][212]LogSavePackage: Save=6.65ms
+[2017.03.14-03.45.31:404][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BlessingOfTheKnight_IconF3DC421A4175CF68120A9AA35C5E5F24.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BlessingOfTheKnight_Icon.uasset'
+[2017.03.14-03.45.31:405][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BlessingOfTheKnight_Icon.uasset
+[2017.03.14-03.45.31:416][212]LogSavePackage: Save=6.06ms
+[2017.03.14-03.45.31:416][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BlessingOfWorlds_IconDF5C06634D1FF1F53AE7E1AB53B41815.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BlessingOfWorlds_Icon.uasset'
+[2017.03.14-03.45.31:418][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/BlessingOfWorlds_Icon.uasset
+[2017.03.14-03.45.31:427][212]LogSavePackage: Save=5.42ms
+[2017.03.14-03.45.31:428][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Crota_sEnd_IconFFF2C0BF4E72C4D9768CA09C264EB87D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Crota_sEnd_Icon.uasset'
+[2017.03.14-03.45.31:430][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Crota_sEnd_Icon.uasset
+[2017.03.14-03.45.31:439][212]LogSavePackage: Save=4.99ms
+[2017.03.14-03.45.31:439][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/CrownOfTheSovereign_IconFC950D554F5B1187EE041797E1D0185B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/CrownOfTheSovereign_Icon.uasset'
+[2017.03.14-03.45.31:441][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/CrownOfTheSovereign_Icon.uasset
+[2017.03.14-03.45.31:451][212]LogSavePackage: Save=5.45ms
+[2017.03.14-03.45.31:451][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DarkHarvest_Icon9C2476C64B89F21FA0CF6FA949177667.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/DarkHarvest_Icon.uasset'
+[2017.03.14-03.45.31:453][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/DarkHarvest_Icon.uasset
+[2017.03.14-03.45.31:462][212]LogSavePackage: Save=5.19ms
+[2017.03.14-03.45.31:462][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ElementOfTheDeadSun_IconE710C18D400E6C4205D6E79919B585A8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ElementOfTheDeadSun_Icon.uasset'
+[2017.03.14-03.45.31:464][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ElementOfTheDeadSun_Icon.uasset
+[2017.03.14-03.45.31:474][212]LogSavePackage: Save=5.68ms
+[2017.03.14-03.45.31:474][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ElementOfTheShifter_Icon4DFCCAD14A8E7ACBAC0613938A9914EB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ElementOfTheShifter_Icon.uasset'
+[2017.03.14-03.45.31:476][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ElementOfTheShifter_Icon.uasset
+[2017.03.14-03.45.31:486][212]LogSavePackage: Save=5.22ms
+[2017.03.14-03.45.31:486][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EmperorSigil_IconDAA47BC545288CAFED31A19D944C5EBF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/EmperorSigil_Icon.uasset'
+[2017.03.14-03.45.31:488][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/EmperorSigil_Icon.uasset
+[2017.03.14-03.45.31:498][212]LogSavePackage: Save=6.21ms
+[2017.03.14-03.45.31:498][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ErisMorn_Icon1AE3CCDB45D7CE665DD5F998D35B2040.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ErisMorn_Icon.uasset'
+[2017.03.14-03.45.31:500][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/ErisMorn_Icon.uasset
+[2017.03.14-03.45.31:510][212]LogSavePackage: Save=5.59ms
+[2017.03.14-03.45.31:510][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EyeOfOsiris_Icon2102EF194F39AABE1D237B9F88842CDF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/EyeOfOsiris_Icon.uasset'
+[2017.03.14-03.45.31:512][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/EyeOfOsiris_Icon.uasset
+[2017.03.14-03.45.31:521][212]LogSavePackage: Save=4.83ms
+[2017.03.14-03.45.31:521][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/FirmDecree_IconA6A2491147E48D2D371BC6BE897A310A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/FirmDecree_Icon.uasset'
+[2017.03.14-03.45.31:523][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/FirmDecree_Icon.uasset
+[2017.03.14-03.45.31:532][212]LogSavePackage: Save=5.05ms
+[2017.03.14-03.45.31:532][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Frame_sHonor_IconB88653DB4B4005C79B70B5AE3685111B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Frame_sHonor_Icon.uasset'
+[2017.03.14-03.45.31:535][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Frame_sHonor_Icon.uasset
+[2017.03.14-03.45.31:545][212]LogSavePackage: Save=5.78ms
+[2017.03.14-03.45.31:545][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/InsulaThesauraria_Icon016BBF6348B6B5DA087E66AB2D5495F2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/InsulaThesauraria_Icon.uasset'
+[2017.03.14-03.45.31:547][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/InsulaThesauraria_Icon.uasset
+[2017.03.14-03.45.31:557][212]LogSavePackage: Save=5.14ms
+[2017.03.14-03.45.31:557][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Judgment_sRightHand_Icon0CCFA7374789E7ECAB390E870F8F9EDB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Judgment_sRightHand_Icon.uasset'
+[2017.03.14-03.45.31:559][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Judgment_sRightHand_Icon.uasset
+[2017.03.14-03.45.31:568][212]LogSavePackage: Save=5.00ms
+[2017.03.14-03.45.31:568][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Kellbreaker_Icon73DB76A14F7BF8B0B9681B91BD8D5F29.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Kellbreaker_Icon.uasset'
+[2017.03.14-03.45.31:570][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Kellbreaker_Icon.uasset
+[2017.03.14-03.45.31:580][212]LogSavePackage: Save=5.17ms
+[2017.03.14-03.45.31:580][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/MidnightHunt_Icon0D7AE6C642F397761C82B5BB4ADEC9E9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/MidnightHunt_Icon.uasset'
+[2017.03.14-03.45.31:584][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/MidnightHunt_Icon.uasset
+[2017.03.14-03.45.31:593][212]LogSavePackage: Save=5.41ms
+[2017.03.14-03.45.31:593][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/MoonOfOsiris_Icon48EBAD034C0B3DF877D5AF80CC2442C8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/MoonOfOsiris_Icon.uasset'
+[2017.03.14-03.45.31:595][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/MoonOfOsiris_Icon.uasset
+[2017.03.14-03.45.31:603][212]LogSavePackage: Save=4.96ms
+[2017.03.14-03.45.31:603][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/PrinceSigil_IconEAB88FA74781983B33D05AA5A0F42E44.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/PrinceSigil_Icon.uasset'
+[2017.03.14-03.45.31:605][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/PrinceSigil_Icon.uasset
+[2017.03.14-03.45.31:618][212]LogSavePackage: Save=5.29ms
+[2017.03.14-03.45.31:618][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Queen_sGuardCrest_IconB308C7A24A3494539E83EE9A2EF571EA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Queen_sGuardCrest_Icon.uasset'
+[2017.03.14-03.45.31:619][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/Queen_sGuardCrest_Icon.uasset
+[2017.03.14-03.45.31:631][212]LogSavePackage: Save=6.88ms
+[2017.03.14-03.45.31:631][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfDeviance_IconBB6DA0434E84BF177E904FAF2A5A7388.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfDeviance_Icon.uasset'
+[2017.03.14-03.45.31:633][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfDeviance_Icon.uasset
+[2017.03.14-03.45.31:643][212]LogSavePackage: Save=5.46ms
+[2017.03.14-03.45.31:643][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfNight_Icon28AA8A834B4172645AB8DD9E6E89946E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfNight_Icon.uasset'
+[2017.03.14-03.45.31:645][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfNight_Icon.uasset
+[2017.03.14-03.45.31:654][212]LogSavePackage: Save=5.22ms
+[2017.03.14-03.45.31:654][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheComingWar_Icon15BB6B514A3CC4E6BA6390B46A4CCCB0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfTheComingWar_Icon.uasset'
+[2017.03.14-03.45.31:657][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfTheComingWar_Icon.uasset
+[2017.03.14-03.45.31:670][212]LogSavePackage: Save=5.60ms
+[2017.03.14-03.45.31:670][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheYoungWolf_Icon229930B34198AF3CE03E52A377BB2169.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfTheYoungWolf_Icon.uasset'
+[2017.03.14-03.45.31:672][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SigilOfTheYoungWolf_Icon.uasset
+[2017.03.14-03.45.31:681][212]LogSavePackage: Save=5.23ms
+[2017.03.14-03.45.31:681][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SignOfTheInfinite_IconF496E2A74263E8FF4EDC5F93FCE6313E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SignOfTheInfinite_Icon.uasset'
+[2017.03.14-03.45.31:683][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SignOfTheInfinite_Icon.uasset
+[2017.03.14-03.45.31:693][212]LogSavePackage: Save=5.41ms
+[2017.03.14-03.45.31:693][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/StarOfDawn_IconDB9CAC384A8E33459786B5B44C09159D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/StarOfDawn_Icon.uasset'
+[2017.03.14-03.45.31:695][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/StarOfDawn_Icon.uasset
+[2017.03.14-03.45.31:705][212]LogSavePackage: Save=5.54ms
+[2017.03.14-03.45.31:705][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SunOfOsiris_Icon5FC9631B477EF23A85C0F694889A7506.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SunOfOsiris_Icon.uasset'
+[2017.03.14-03.45.31:707][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SunOfOsiris_Icon.uasset
+[2017.03.14-03.45.31:721][212]LogSavePackage: Save=5.04ms
+[2017.03.14-03.45.31:721][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SUROSFire_Icon41CDE4B44D59A4498D80DCA070E1168D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SUROSFire_Icon.uasset'
+[2017.03.14-03.45.31:723][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SUROSFire_Icon.uasset
+[2017.03.14-03.45.31:733][212]LogSavePackage: Save=5.28ms
+[2017.03.14-03.45.31:733][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SwordsOfDawn_Icon8C75411A407AC108068D9CA393F3B0CA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SwordsOfDawn_Icon.uasset'
+[2017.03.14-03.45.31:735][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SwordsOfDawn_Icon.uasset
+[2017.03.14-03.45.31:745][212]LogSavePackage: Save=5.18ms
+[2017.03.14-03.45.31:745][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SymbolOfTheMagister_Icon401048F94BAD6406056C2A8D78324097.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SymbolOfTheMagister_Icon.uasset'
+[2017.03.14-03.45.31:747][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SymbolOfTheMagister_Icon.uasset
+[2017.03.14-03.45.31:757][212]LogSavePackage: Save=5.25ms
+[2017.03.14-03.45.31:757][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SymbolOfTheSorcerer_IconDD66CE004ED2FA863860D0A619321CD4.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SymbolOfTheSorcerer_Icon.uasset'
+[2017.03.14-03.45.31:759][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/SymbolOfTheSorcerer_Icon.uasset
+[2017.03.14-03.45.31:770][212]LogSavePackage: Save=5.47ms
+[2017.03.14-03.45.31:770][212]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/VigilamusNoctu_IconBA1C0C97433B22ECFD67B693893C3526.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/VigilamusNoctu_Icon.uasset'
+[2017.03.14-03.45.31:771][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/Icon/VigilamusNoctu_Icon.uasset
+[2017.03.14-03.45.38:463][825]LogSavePackage: Save=5.02ms
+[2017.03.14-03.45.38:463][825]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplatesF932871A441D197635BB5095A19483CB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-03.45.38:465][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-03.45.39:371][913]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.14-03.45.58:850][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BladeOfCrota_BG.jpg)
+[2017.03.14-03.45.58:853][785]LogTexture:Display: Building textures: BladeOfCrota_BG (BGRA8)
+[2017.03.14-03.45.58:862][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BlessingOfTheKnight_BG.jpg)
+[2017.03.14-03.45.58:865][785]LogTexture:Display: Building textures: BlessingOfTheKnight_BG (BGRA8)
+[2017.03.14-03.45.58:873][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BlessingOfWorlds_BG.jpg)
+[2017.03.14-03.45.58:876][785]LogTexture:Display: Building textures: BlessingOfWorlds_BG (BGRA8)
+[2017.03.14-03.45.58:885][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Crota'sEnd_BG.jpg)
+[2017.03.14-03.45.58:887][785]LogTexture:Display: Building textures: Crota_sEnd_BG (BGRA8)
+[2017.03.14-03.45.58:896][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\CrownOfTheSovereign_BG.jpg)
+[2017.03.14-03.45.58:898][785]LogTexture:Display: Building textures: CrownOfTheSovereign_BG (BGRA8)
+[2017.03.14-03.45.58:907][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\DarkHarvest_BG.jpg)
+[2017.03.14-03.45.58:910][785]LogTexture:Display: Building textures: DarkHarvest_BG (BGRA8)
+[2017.03.14-03.45.58:918][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\ElementOfTheDeadSun_BG.jpg)
+[2017.03.14-03.45.58:921][785]LogTexture:Display: Building textures: ElementOfTheDeadSun_BG (BGRA8)
+[2017.03.14-03.45.58:929][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\ElementOfTheShifter_BG.jpg)
+[2017.03.14-03.45.58:932][785]LogTexture:Display: Building textures: ElementOfTheShifter_BG (BGRA8)
+[2017.03.14-03.45.58:940][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\EmerorSigil_BG.jpg)
+[2017.03.14-03.45.58:943][785]LogTexture:Display: Building textures: EmerorSigil_BG (BGRA8)
+[2017.03.14-03.45.58:951][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\ErisMorn_BG.jpg)
+[2017.03.14-03.45.58:954][785]LogTexture:Display: Building textures: ErisMorn_BG (BGRA8)
+[2017.03.14-03.45.58:962][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\EyeOfOsiris_BG.jpg)
+[2017.03.14-03.45.58:965][785]LogTexture:Display: Building textures: EyeOfOsiris_BG (BGRA8)
+[2017.03.14-03.45.58:972][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\FirmDecree_BG.jpg)
+[2017.03.14-03.45.58:975][785]LogTexture:Display: Building textures: FirmDecree_BG (BGRA8)
+[2017.03.14-03.45.58:983][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Frame'sHonor_BG.jpg)
+[2017.03.14-03.45.58:986][785]LogTexture:Display: Building textures: Frame_sHonor_BG (BGRA8)
+[2017.03.14-03.45.58:993][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\InsulaThesauraria_BG.jpg)
+[2017.03.14-03.45.58:996][785]LogTexture:Display: Building textures: InsulaThesauraria_BG (BGRA8)
+[2017.03.14-03.45.59:004][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Judgment'sRightHand_BG.jpg)
+[2017.03.14-03.45.59:007][785]LogTexture:Display: Building textures: Judgment_sRightHand_BG (BGRA8)
+[2017.03.14-03.45.59:015][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Kellbreaker_BG.jpg)
+[2017.03.14-03.45.59:018][785]LogTexture:Display: Building textures: Kellbreaker_BG (BGRA8)
+[2017.03.14-03.45.59:026][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\MidnightHunt_BG.jpg)
+[2017.03.14-03.45.59:030][785]LogTexture:Display: Building textures: MidnightHunt_BG (BGRA8)
+[2017.03.14-03.45.59:039][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\MoonOfOsiris_BG.jpg)
+[2017.03.14-03.45.59:041][785]LogTexture:Display: Building textures: MoonOfOsiris_BG (BGRA8)
+[2017.03.14-03.45.59:048][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\PrinceSigil_BG.jpg)
+[2017.03.14-03.45.59:051][785]LogTexture:Display: Building textures: PrinceSigil_BG (BGRA8)
+[2017.03.14-03.45.59:058][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\Queen'sGuardCrest_BG.jpg)
+[2017.03.14-03.45.59:061][785]LogTexture:Display: Building textures: Queen_sGuardCrest_BG (BGRA8)
+[2017.03.14-03.45.59:069][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfDeviance_BG.jpg)
+[2017.03.14-03.45.59:072][785]LogTexture:Display: Building textures: SigilOfDeviance_BG (BGRA8)
+[2017.03.14-03.45.59:081][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfNight_BG.jpg)
+[2017.03.14-03.45.59:084][785]LogTexture:Display: Building textures: SigilOfNight_BG (BGRA8)
+[2017.03.14-03.45.59:092][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfTheComingWar_BG.jpg)
+[2017.03.14-03.45.59:095][785]LogTexture:Display: Building textures: SigilOfTheComingWar_BG (BGRA8)
+[2017.03.14-03.45.59:103][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SigilOfTheYoungWolf_BG.jpg)
+[2017.03.14-03.45.59:106][785]LogTexture:Display: Building textures: SigilOfTheYoungWolf_BG (BGRA8)
+[2017.03.14-03.45.59:116][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SignOfTheInfinite_BG.jpg)
+[2017.03.14-03.45.59:119][785]LogTexture:Display: Building textures: SignOfTheInfinite_BG (BGRA8)
+[2017.03.14-03.45.59:128][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\StarOfDawn_BG.jpg)
+[2017.03.14-03.45.59:139][785]LogTexture:Display: Building textures: StarOfDawn_BG (BGRA8)
+[2017.03.14-03.45.59:147][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SunOfOsiris_BG.jpg)
+[2017.03.14-03.45.59:150][785]LogTexture:Display: Building textures: SunOfOsiris_BG (BGRA8)
+[2017.03.14-03.45.59:159][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SUROSFire_BG.jpg)
+[2017.03.14-03.45.59:162][785]LogTexture:Display: Building textures: SUROSFire_BG (BGRA8)
+[2017.03.14-03.45.59:171][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SwordsOfDawn_BG.jpg)
+[2017.03.14-03.45.59:181][785]LogTexture:Display: Building textures: SwordsOfDawn_BG (BGRA8)
+[2017.03.14-03.45.59:189][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SymbolOfTheMagister_BG.jpg)
+[2017.03.14-03.45.59:192][785]LogTexture:Display: Building textures: SymbolOfTheMagister_BG (BGRA8)
+[2017.03.14-03.45.59:202][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\SymbolOfTheSorcerer_BG.jpg)
+[2017.03.14-03.45.59:205][785]LogTexture:Display: Building textures: SymbolOfTheSorcerer_BG (BGRA8)
+[2017.03.14-03.45.59:216][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\VigilamusNoctu_BG.jpg)
+[2017.03.14-03.45.59:220][785]LogTexture:Display: Building textures: VigilamusNoctu_BG (BGRA8)
+[2017.03.14-03.45.59:231][785]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\Nameplates\Emblems2\BeBrave_BG.jpg)
+[2017.03.14-03.45.59:234][785]LogTexture:Display: Building textures: BeBrave_BG (BGRA8)
+[2017.03.14-03.46.18:524][241]LogTexture:Display: Building textures: StarOfDawn_BG (BGRA8)
+[2017.03.14-03.46.18:539][241]LogTexture:Display: Building textures: SwordsOfDawn_BG (BGRA8)
+[2017.03.14-03.46.19:580][326]LogTexture:Display: Building textures: StarOfDawn_BG (BGRA8)
+[2017.03.14-03.46.20:465][400]LogTexture:Display: Building textures: SwordsOfDawn_BG (BGRA8)
+[2017.03.14-03.46.24:501][739]LogSavePackage: Save=6.14ms
+[2017.03.14-03.46.24:501][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BeBrave_BG61E6179F4F6B95CFCC2423A7384CD1CD.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BeBrave_BG.uasset'
+[2017.03.14-03.46.24:503][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BeBrave_BG.uasset
+[2017.03.14-03.46.24:515][739]LogSavePackage: Save=7.77ms
+[2017.03.14-03.46.24:515][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BladeOfCrota_BG29F4617849B2EE8B6E8566AB1A073DEF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BladeOfCrota_BG.uasset'
+[2017.03.14-03.46.24:516][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BladeOfCrota_BG.uasset
+[2017.03.14-03.46.24:529][739]LogSavePackage: Save=8.08ms
+[2017.03.14-03.46.24:529][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BlessingOfTheKnight_BG425F397A477DFD279CE2CF9EA301894F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BlessingOfTheKnight_BG.uasset'
+[2017.03.14-03.46.24:531][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BlessingOfTheKnight_BG.uasset
+[2017.03.14-03.46.24:544][739]LogSavePackage: Save=8.91ms
+[2017.03.14-03.46.24:544][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/BlessingOfWorlds_BG8454B56B44318BF4BBF42DAAD614CD87.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BlessingOfWorlds_BG.uasset'
+[2017.03.14-03.46.24:547][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/BlessingOfWorlds_BG.uasset
+[2017.03.14-03.46.24:558][739]LogSavePackage: Save=7.11ms
+[2017.03.14-03.46.24:558][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Crota_sEnd_BGD17B4BA144D07FF55AD9D0B69024B304.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Crota_sEnd_BG.uasset'
+[2017.03.14-03.46.24:561][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Crota_sEnd_BG.uasset
+[2017.03.14-03.46.24:571][739]LogSavePackage: Save=6.21ms
+[2017.03.14-03.46.24:571][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/CrownOfTheSovereign_BGCF16568049117A545B3CED9C2C51614B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/CrownOfTheSovereign_BG.uasset'
+[2017.03.14-03.46.24:573][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/CrownOfTheSovereign_BG.uasset
+[2017.03.14-03.46.24:586][739]LogSavePackage: Save=8.72ms
+[2017.03.14-03.46.24:586][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DarkHarvest_BGF652C4DB47458E5846C747964C9F419E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/DarkHarvest_BG.uasset'
+[2017.03.14-03.46.24:588][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/DarkHarvest_BG.uasset
+[2017.03.14-03.46.24:599][739]LogSavePackage: Save=6.43ms
+[2017.03.14-03.46.24:599][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ElementOfTheDeadSun_BGA88A4AD8423D02186228A1AC3CEF60B5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ElementOfTheDeadSun_BG.uasset'
+[2017.03.14-03.46.24:601][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ElementOfTheDeadSun_BG.uasset
+[2017.03.14-03.46.24:612][739]LogSavePackage: Save=6.12ms
+[2017.03.14-03.46.24:612][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ElementOfTheShifter_BG63789DAE4E5BF52F6FF13097CDCEF569.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ElementOfTheShifter_BG.uasset'
+[2017.03.14-03.46.24:614][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ElementOfTheShifter_BG.uasset
+[2017.03.14-03.46.24:623][739]LogSavePackage: Save=4.85ms
+[2017.03.14-03.46.24:623][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EmerorSigil_BG803B40754DF3AC35660074A74231A20B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmerorSigil_BG.uasset'
+[2017.03.14-03.46.24:624][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmerorSigil_BG.uasset
+[2017.03.14-03.46.24:636][739]LogSavePackage: Save=6.08ms
+[2017.03.14-03.46.24:636][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/ErisMorn_BG7A3D399A4602E7E8DB95628015296DCF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ErisMorn_BG.uasset'
+[2017.03.14-03.46.24:638][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/ErisMorn_BG.uasset
+[2017.03.14-03.46.24:649][739]LogSavePackage: Save=7.04ms
+[2017.03.14-03.46.24:649][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EyeOfOsiris_BGFC09D08C4B4C736C2676C4842D238C74.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EyeOfOsiris_BG.uasset'
+[2017.03.14-03.46.24:650][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EyeOfOsiris_BG.uasset
+[2017.03.14-03.46.24:662][739]LogSavePackage: Save=7.65ms
+[2017.03.14-03.46.24:663][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/FirmDecree_BG95F87A564F5A5912E71EA7A2AF93525D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/FirmDecree_BG.uasset'
+[2017.03.14-03.46.24:665][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/FirmDecree_BG.uasset
+[2017.03.14-03.46.24:677][739]LogSavePackage: Save=8.89ms
+[2017.03.14-03.46.24:677][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Frame_sHonor_BG46C7148A44BF7B0CFF083E8F54AB9E0F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Frame_sHonor_BG.uasset'
+[2017.03.14-03.46.24:680][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Frame_sHonor_BG.uasset
+[2017.03.14-03.46.24:692][739]LogSavePackage: Save=8.20ms
+[2017.03.14-03.46.24:692][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/InsulaThesauraria_BG7C36A93D483AA43FD5F478AAF8327FAE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/InsulaThesauraria_BG.uasset'
+[2017.03.14-03.46.24:694][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/InsulaThesauraria_BG.uasset
+[2017.03.14-03.46.24:706][739]LogSavePackage: Save=7.07ms
+[2017.03.14-03.46.24:706][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Judgment_sRightHand_BG3FEB1E684B4B1032DC0B6D9D77472D37.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Judgment_sRightHand_BG.uasset'
+[2017.03.14-03.46.24:708][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Judgment_sRightHand_BG.uasset
+[2017.03.14-03.46.24:720][739]LogSavePackage: Save=7.59ms
+[2017.03.14-03.46.24:720][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Kellbreaker_BG99FE56EB489E894578272F8D2A981197.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Kellbreaker_BG.uasset'
+[2017.03.14-03.46.24:722][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Kellbreaker_BG.uasset
+[2017.03.14-03.46.24:737][739]LogSavePackage: Save=9.23ms
+[2017.03.14-03.46.24:737][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/MidnightHunt_BG06DC0CF347C7F1F83B046F9176C23855.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/MidnightHunt_BG.uasset'
+[2017.03.14-03.46.24:739][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/MidnightHunt_BG.uasset
+[2017.03.14-03.46.24:749][739]LogSavePackage: Save=6.19ms
+[2017.03.14-03.46.24:749][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/MoonOfOsiris_BG0791D767499B8B7DBC3F148193D3DEC1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/MoonOfOsiris_BG.uasset'
+[2017.03.14-03.46.24:751][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/MoonOfOsiris_BG.uasset
+[2017.03.14-03.46.24:762][739]LogSavePackage: Save=6.66ms
+[2017.03.14-03.46.24:762][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/PrinceSigil_BGEEF41E0E4835300D1C98E29D8909DEA0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/PrinceSigil_BG.uasset'
+[2017.03.14-03.46.24:764][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/PrinceSigil_BG.uasset
+[2017.03.14-03.46.24:774][739]LogSavePackage: Save=5.99ms
+[2017.03.14-03.46.24:774][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Queen_sGuardCrest_BG5674C1174403615B7E536BBA708C44BB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Queen_sGuardCrest_BG.uasset'
+[2017.03.14-03.46.24:776][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/Queen_sGuardCrest_BG.uasset
+[2017.03.14-03.46.24:787][739]LogSavePackage: Save=5.79ms
+[2017.03.14-03.46.24:787][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfDeviance_BG7EC39AC94D13D3EAEE83C8AAA6D8381C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfDeviance_BG.uasset'
+[2017.03.14-03.46.24:789][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfDeviance_BG.uasset
+[2017.03.14-03.46.24:802][739]LogSavePackage: Save=8.27ms
+[2017.03.14-03.46.24:802][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfNight_BGDBA9302242FD9F11F755ED8DF3FE7B12.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfNight_BG.uasset'
+[2017.03.14-03.46.24:804][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfNight_BG.uasset
+[2017.03.14-03.46.24:816][739]LogSavePackage: Save=7.17ms
+[2017.03.14-03.46.24:816][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheComingWar_BG409878D84287E3B1FDB45E85936DF7D0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheComingWar_BG.uasset'
+[2017.03.14-03.46.24:818][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheComingWar_BG.uasset
+[2017.03.14-03.46.24:831][739]LogSavePackage: Save=8.51ms
+[2017.03.14-03.46.24:831][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SigilOfTheYoungWolf_BG13145A9640B1FA728B0C5C9938C8156C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheYoungWolf_BG.uasset'
+[2017.03.14-03.46.24:833][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SigilOfTheYoungWolf_BG.uasset
+[2017.03.14-03.46.24:848][739]LogSavePackage: Save=10.49ms
+[2017.03.14-03.46.24:848][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SignOfTheInfinite_BGA3D3141543D33928B34D3BBD6FF6CE24.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SignOfTheInfinite_BG.uasset'
+[2017.03.14-03.46.24:851][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SignOfTheInfinite_BG.uasset
+[2017.03.14-03.46.24:863][739]LogSavePackage: Save=7.55ms
+[2017.03.14-03.46.24:863][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/StarOfDawn_BG3A93011F4A64E48E13040C9A2DC389A9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/StarOfDawn_BG.uasset'
+[2017.03.14-03.46.24:865][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/StarOfDawn_BG.uasset
+[2017.03.14-03.46.24:877][739]LogSavePackage: Save=7.73ms
+[2017.03.14-03.46.24:877][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SunOfOsiris_BGBFD3622D46766CB7A344C49F0DC717F0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SunOfOsiris_BG.uasset'
+[2017.03.14-03.46.24:879][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SunOfOsiris_BG.uasset
+[2017.03.14-03.46.24:891][739]LogSavePackage: Save=7.64ms
+[2017.03.14-03.46.24:891][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SUROSFire_BG2C3EBB1C4ECAC2EFBC6BA39062775AAB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SUROSFire_BG.uasset'
+[2017.03.14-03.46.24:893][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SUROSFire_BG.uasset
+[2017.03.14-03.46.24:906][739]LogSavePackage: Save=7.90ms
+[2017.03.14-03.46.24:906][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SwordsOfDawn_BG6F7F513444D98A0B616DDFABAF64E1C7.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SwordsOfDawn_BG.uasset'
+[2017.03.14-03.46.24:908][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SwordsOfDawn_BG.uasset
+[2017.03.14-03.46.24:919][739]LogSavePackage: Save=5.92ms
+[2017.03.14-03.46.24:919][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SymbolOfTheMagister_BG917C20194992D5D3BE4E4086B5C34E11.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SymbolOfTheMagister_BG.uasset'
+[2017.03.14-03.46.24:921][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SymbolOfTheMagister_BG.uasset
+[2017.03.14-03.46.24:933][739]LogSavePackage: Save=6.73ms
+[2017.03.14-03.46.24:933][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SymbolOfTheSorcerer_BG5E9243D04566BDE2A8B939B04405C42D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SymbolOfTheSorcerer_BG.uasset'
+[2017.03.14-03.46.24:935][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/SymbolOfTheSorcerer_BG.uasset
+[2017.03.14-03.46.24:951][739]LogSavePackage: Save=10.67ms
+[2017.03.14-03.46.24:951][739]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/VigilamusNoctu_BGB681377D4B515644EF07BCB763223362.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/VigilamusNoctu_BG.uasset'
+[2017.03.14-03.46.24:952][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/VigilamusNoctu_BG.uasset
+[2017.03.14-03.52.59:069][262]LogSavePackage: Save=5.23ms
+[2017.03.14-03.52.59:069][262]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplates2D687F5D4EF4292E6DCF76B646071C24.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-03.52.59:071][262]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-03.56.11:587][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ReDestiny/Maps/Level_ShipModular' took 0.014
+[2017.03.14-03.56.11:588][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates] ([1] browsable assets)...
+[2017.03.14-03.56.11:588][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates]
+[2017.03.14-03.56.11:642][498]LogSavePackage: Save=5.36ms
+[2017.03.14-03.56.11:642][498]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplates_Auto2AB8DAB2C41A448330F036DBA5EDC48BD.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates_Auto2.uasset'
+[2017.03.14-03.56.11:644][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates_Auto2.uasset
+[2017.03.14-03.56.11:644][498]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.03.14-03.59.07:423][730]LogEnum:Warning: In asset 'None', there is an enum property of type 'E_EmblemGroup' with an invalid value of 'E_EmblemGroup::NewEnumerator15'
+[2017.03.14-03.59.29:704][316]LogSavePackage: Save=4.48ms
+[2017.03.14-03.59.29:704][316]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/E_EmblemGroup3BA446714D2957B9AC1909BA674B57A2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/Enums/E_EmblemGroup.uasset'
+[2017.03.14-03.59.29:706][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/Enums/E_EmblemGroup.uasset
+[2017.03.14-04.04.13:772][471]LogSavePackage: Save=4.56ms
+[2017.03.14-04.04.13:772][471]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EmperorSigil_BG85944B4F43CB6202DDF3FA9C0EBA20EF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmperorSigil_BG.uasset'
+[2017.03.14-04.04.13:774][471]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmperorSigil_BG.uasset
+[2017.03.14-04.04.27:889][107]LogEditorFactories: Performing atomic reimport of [C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems2/EmperorSigil_BG.jpg]
+[2017.03.14-04.04.27:890][107]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Steven4K/Desktop/ReDestiny/Nameplates/Emblems2/EmperorSigil_BG.jpg)
+[2017.03.14-04.04.27:893][107]LogTexture:Display: Building textures: EmperorSigil_BG (BGRA8)
+[2017.03.14-04.04.27:898][107]LogEditorFactories: -- imported successfully
+[2017.03.14-04.04.29:953][315]LogSavePackage: Save=5.71ms
+[2017.03.14-04.04.29:953][315]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/EmperorSigil_BGB8F89A9442DF2655EB643C9363AB5D43.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmperorSigil_BG.uasset'
+[2017.03.14-04.04.29:955][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/Nameplates/BG/EmperorSigil_BG.uasset
+[2017.03.14-04.09.26:524][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ReDestiny/Maps/Level_ShipModular' took 0.011
+[2017.03.14-04.09.26:525][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates] ([1] browsable assets)...
+[2017.03.14-04.09.26:525][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates]
+[2017.03.14-04.09.26:581][ 19]LogSavePackage: Save=5.74ms
+[2017.03.14-04.09.26:581][ 19]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplates_Auto304E7CF654229B0C60EC7BB8A5AB1F52A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates_Auto3.uasset'
+[2017.03.14-04.09.26:583][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Blueprints/DataTables/DT_AllNameplates_Auto3.uasset
+[2017.03.14-04.09.26:583][ 19]LogFileHelpers: Auto-saving content packages took 0.058
+[2017.03.14-04.16.54:938][129]LogSavePackage: Save=6.14ms
+[2017.03.14-04.16.54:938][129]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplates6B6B1321415FE66FFF212080A24FA638.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-04.16.54:940][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
+[2017.03.14-04.19.51:614][213]LogSavePackage: Save=6.51ms
+[2017.03.14-04.19.51:614][213]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/DT_AllNameplatesF7DB005D4A4470A2CA0B0F9E1780ED85.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset'
+[2017.03.14-04.19.51:617][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/DataTables/DT_AllNameplates.uasset
