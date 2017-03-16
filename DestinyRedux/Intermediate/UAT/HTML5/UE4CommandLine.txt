@@ -1,0 +1,1 @@
+../../../DestinyRedux/DestinyRedux.uproject  /Game/ReDestiny/Maps/Level_ShipModular -Messaging -SessionId=1D7BA8534BF75E24A26802B3401911C0 -SessionOwner="Steven4K" -SessionName="Launch On Device"
