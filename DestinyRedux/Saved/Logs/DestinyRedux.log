@@ -1869,3 +1869,599 @@ LogInit: Object subsystem initialized
 [2017.03.16-20.25.33:429][883]LogSavePackage: Save=120.19ms
 [2017.03.16-20.25.33:429][883]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget21F7C2744A12FE53741DD0B2A9F316BE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
 [2017.03.16-20.25.33:431][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.42.03:576][307]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.42.03:993][307]LogSavePackage: Save=124.58ms
+[2017.03.16-20.42.03:993][307]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget4E56038244E8556FB737829635B7187F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.42.03:998][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.45.19:715][936]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.45.27:087][936]LogSavePackage: Save=135.77ms
+[2017.03.16-20.45.27:088][936]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidgetA2CD92054B7568A944F624A86449B9E5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.45.27:092][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.45.27:236][936]LogSavePackage: Save=24.88ms
+[2017.03.16-20.45.27:236][936]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collection_6Column7018A90C4255FFF449FD6ABF084AA1E6.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Kiosks/Collection_6Column.uasset'
+[2017.03.16-20.45.27:238][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Kiosks/Collection_6Column.uasset
+[2017.03.16-20.45.27:408][936]LogSavePackage: Save=40.44ms
+[2017.03.16-20.45.27:408][936]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/VendorWidget_RowSection745F210F4829FED28A8C439C25ABDB01.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/VendorSections/VendorWidget_RowSection.uasset'
+[2017.03.16-20.45.27:411][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/VendorSections/VendorWidget_RowSection.uasset
+[2017.03.16-20.48.00:007][121]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.48.13:235][121]LogSavePackage: Save=126.98ms
+[2017.03.16-20.48.13:235][121]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget49ACC3C44B4AE4300C2F6D9CAAA02E19.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.48.13:238][121]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.49.04:872][826]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.49.05:434][826]LogSavePackage: Save=125.78ms
+[2017.03.16-20.49.05:434][826]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidgetFE3F9B7644C6FD24D570B4BE27D76201.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.49.05:436][826]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.49.23:024][913]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-20.49.23:047][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-20.49.23:047][913]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 6:49:23 AM)
+[2017.03.16-20.49.23:047][913]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-20.49.23:053][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005812s)
+[2017.03.16-20.49.23:054][913]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-20.49.23:054][913]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2017.03.16-20.49.23:054][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006684s)
+[2017.03.16-20.49.23:088][913]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-20.49.23:095][913]LogInit: FAudioDevice initialized.
+[2017.03.16-20.49.23:136][913]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-20.49.23:141][913]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-13.49.23
+[2017.03.16-20.49.23:141][913]LogWorld: Bringing up level for play took: 0.004422
+[2017.03.16-20.49.23:299][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:299][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:299][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:299][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:299][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:299][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:318][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:336][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:337][913]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.49.23:980][913]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.223
+[2017.03.16-20.49.29:441][284]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.49.29:442][284]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-20.49.29:559][285]LogPlayLevel:Display: Destroying online subsystem :Context_17
+[2017.03.16-20.49.29:559][285]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.52.18:495][170]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.52.19:067][170]LogSavePackage: Save=126.04ms
+[2017.03.16-20.52.19:067][170]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget08B64F2E419CA3F796B1739FA5B8BF89.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.52.19:069][170]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.52.22:420][435]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-20.52.22:436][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-20.52.22:436][435]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 6:52:22 AM)
+[2017.03.16-20.52.22:437][435]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-20.52.22:442][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005899s)
+[2017.03.16-20.52.22:443][435]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-20.52.22:443][435]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2017.03.16-20.52.22:443][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006821s)
+[2017.03.16-20.52.22:478][435]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-20.52.22:484][435]LogInit: FAudioDevice initialized.
+[2017.03.16-20.52.22:530][435]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-20.52.22:535][435]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-13.52.22
+[2017.03.16-20.52.22:536][435]LogWorld: Bringing up level for play took: 0.004493
+[2017.03.16-20.52.22:700][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:700][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:700][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:700][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:700][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:700][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:720][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:738][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.52.22:739][435]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.52.23:386][435]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 1.629
+[2017.03.16-20.52.26:215][628]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.52.26:215][628]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-20.52.26:365][629]LogPlayLevel:Display: Destroying online subsystem :Context_18
+[2017.03.16-20.52.26:365][629]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.53.44:533][ 84]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.53.45:104][ 84]LogSavePackage: Save=127.70ms
+[2017.03.16-20.53.45:104][ 84]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget0B81E7354478B4896D16A6B2DEE77280.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.53.45:106][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.53.46:188][169]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-20.53.46:204][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-20.53.46:204][169]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 6:53:46 AM)
+[2017.03.16-20.53.46:204][169]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-20.53.46:210][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005697s)
+[2017.03.16-20.53.46:210][169]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-20.53.46:211][169]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.03.16-20.53.46:211][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006800s)
+[2017.03.16-20.53.46:244][169]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-20.53.46:251][169]LogInit: FAudioDevice initialized.
+[2017.03.16-20.53.46:296][169]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-20.53.46:301][169]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-13.53.46
+[2017.03.16-20.53.46:301][169]LogWorld: Bringing up level for play took: 0.004349
+[2017.03.16-20.53.46:457][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:457][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:457][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:457][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:457][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:457][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:476][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:494][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.53.46:495][169]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.53.47:114][169]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 1.357
+[2017.03.16-20.53.53:443][620]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.53.53:443][620]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-20.53.53:595][621]LogPlayLevel:Display: Destroying online subsystem :Context_19
+[2017.03.16-20.53.53:595][621]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.54.20:755][966]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-20.54.20:776][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-20.54.20:776][966]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 6:54:20 AM)
+[2017.03.16-20.54.20:776][966]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-20.54.20:782][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006424s)
+[2017.03.16-20.54.20:783][966]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-20.54.20:783][966]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.03.16-20.54.20:783][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.007507s)
+[2017.03.16-20.54.20:819][966]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-20.54.20:826][966]LogInit: FAudioDevice initialized.
+[2017.03.16-20.54.20:870][966]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-20.54.20:875][966]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-13.54.20
+[2017.03.16-20.54.20:876][966]LogWorld: Bringing up level for play took: 0.004622
+[2017.03.16-20.54.21:088][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:088][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:088][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:088][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:088][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:088][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:108][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:135][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:136][966]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.54.21:868][966]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.11
+[2017.03.16-20.54.26:959][320]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.54.26:959][320]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-20.54.27:083][321]LogPlayLevel:Display: Destroying online subsystem :Context_20
+[2017.03.16-20.54.27:083][321]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.55.28:897][719]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.55.29:486][719]LogSavePackage: Save=135.58ms
+[2017.03.16-20.55.29:486][719]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget102F40794FF19F2FF8BF82B06E769630.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.55.29:489][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.55.31:701][902]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-20.55.31:718][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-20.55.31:718][902]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 6:55:31 AM)
+[2017.03.16-20.55.31:718][902]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-20.55.31:723][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005547s)
+[2017.03.16-20.55.31:724][902]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-20.55.31:724][902]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2017.03.16-20.55.31:724][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006470s)
+[2017.03.16-20.55.31:760][902]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-20.55.31:766][902]LogInit: FAudioDevice initialized.
+[2017.03.16-20.55.31:806][902]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-20.55.31:811][902]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-13.55.31
+[2017.03.16-20.55.31:811][902]LogWorld: Bringing up level for play took: 0.004611
+[2017.03.16-20.55.31:973][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.55.31:973][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.55.31:973][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.55.31:973][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.55.31:973][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.55.31:973][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:001][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:019][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:019][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:019][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:019][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:020][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:021][902]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-20.55.32:753][902]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.995
+[2017.03.16-20.55.35:571][101]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.55.35:571][101]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-20.55.35:696][102]LogPlayLevel:Display: Destroying online subsystem :Context_21
+[2017.03.16-20.55.35:696][102]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-20.56.44:734][684]LogSlate: Took 0.059543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.03.16-20.59.18:220][648]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.59.19:047][648]LogSavePackage: Save=142.33ms
+[2017.03.16-20.59.19:047][648]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidgetC11EB7804CB8FE9B5273C2B48C9AC3EB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.59.19:050][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-20.59.57:528][754]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-20.59.58:311][754]LogSavePackage: Save=138.33ms
+[2017.03.16-20.59.58:312][754]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget713B22484DE79D5E2A25A6A2313E811B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-20.59.58:315][754]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.00.04:849][220]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.00.06:362][252]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-21.00.06:390][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-21.00.06:390][252]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 7:00:06 AM)
+[2017.03.16-21.00.06:390][252]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-21.00.06:396][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006008s)
+[2017.03.16-21.00.06:397][252]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-21.00.06:397][252]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2017.03.16-21.00.06:397][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006934s)
+[2017.03.16-21.00.06:438][252]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-21.00.06:444][252]LogInit: FAudioDevice initialized.
+[2017.03.16-21.00.06:486][252]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-21.00.06:491][252]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-14.00.06
+[2017.03.16-21.00.06:492][252]LogWorld: Bringing up level for play took: 0.004972
+[2017.03.16-21.00.06:668][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:668][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:668][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:668][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:668][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:668][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:688][252]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:688][252]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:689][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:713][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.00.06:714][252]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.00.07:453][252]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 1.695
+[2017.03.16-21.01.02:046][ 66]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-21.01.02:047][ 66]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-21.01.02:206][ 67]LogPlayLevel:Display: Destroying online subsystem :Context_28
+[2017.03.16-21.01.02:206][ 67]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-21.01.22:998][702]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.01.23:819][702]LogSavePackage: Save=151.21ms
+[2017.03.16-21.01.23:819][702]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget67B7AAEC4C8B48B2D007B3B0415BF8C0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-21.01.23:822][702]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.01.36:118][764]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.01.36:863][764]LogSavePackage: Save=132.30ms
+[2017.03.16-21.01.36:863][764]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget77960B454D2F100FDB346A8AE7DFF055.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-21.01.36:876][764]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.02.47:386][510]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.02.48:136][510]LogSavePackage: Save=128.93ms
+[2017.03.16-21.02.48:136][510]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidgetF98EB4B24EAC9E38246B4EB624F2CFFA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-21.02.48:138][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.03.14:096][300]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.03.14:861][300]LogSavePackage: Save=129.47ms
+[2017.03.16-21.03.14:861][300]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidget15B44BA84BB15592214F26B54D76EAA1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-21.03.14:945][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.03.46:375][201]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.03.47:148][201]LogSavePackage: Save=128.83ms
+[2017.03.16-21.03.47:148][201]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidgetC75B64934D723EFAA30CAABE0939686E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-21.03.47:150][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.03.55:778][795]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-21.03.55:809][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-21.03.55:809][795]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 7:03:55 AM)
+[2017.03.16-21.03.55:809][795]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-21.03.55:815][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005533s)
+[2017.03.16-21.03.55:815][795]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-21.03.55:815][795]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.03.16-21.03.55:816][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006385s)
+[2017.03.16-21.03.55:854][795]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-21.03.55:861][795]LogInit: FAudioDevice initialized.
+[2017.03.16-21.03.55:901][795]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-21.03.55:906][795]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-14.03.55
+[2017.03.16-21.03.55:906][795]LogWorld: Bringing up level for play took: 0.004428
+[2017.03.16-21.03.56:065][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:065][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:065][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:065][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:065][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:065][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:084][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:102][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:103][795]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.03.56:724][795]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.967
+[2017.03.16-21.04.03:885][187]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-21.04.03:885][187]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-21.04.04:008][188]LogPlayLevel:Display: Destroying online subsystem :Context_29
+[2017.03.16-21.04.04:008][188]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-21.04.13:975][849]BlueprintLog: New page: Compile SingleItemWidget
+[2017.03.16-21.04.14:741][849]LogSavePackage: Save=130.02ms
+[2017.03.16-21.04.14:741][849]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleItemWidgetD4759F754292E1BD8C4164AD5179E3A0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset'
+[2017.03.16-21.04.14:743][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/Common/SingleItemWidget.uasset
+[2017.03.16-21.04.18:903][ 69]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.16-21.04.18:927][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.16-21.04.18:927][ 69]PIE: New page: PIE session: Level_ShipModular (Mar 16, 2017, 7:04:18 AM)
+[2017.03.16-21.04.18:927][ 69]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.03.16-21.04.18:932][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005192s)
+[2017.03.16-21.04.18:933][ 69]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.03.16-21.04.18:933][ 69]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.03.16-21.04.18:933][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.005968s)
+[2017.03.16-21.04.18:964][ 69]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.16-21.04.18:969][ 69]LogInit: FAudioDevice initialized.
+[2017.03.16-21.04.19:010][ 69]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.16-21.04.19:016][ 69]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.03.16-14.04.19
+[2017.03.16-21.04.19:016][ 69]LogWorld: Bringing up level for play took: 0.004364
+[2017.03.16-21.04.19:174][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:174][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:174][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:174][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:174][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:174][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:193][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:211][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:212][ 69]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.03.16-21.04.19:838][ 69]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.081
+[2017.03.16-21.04.53:017][892]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.16-21.04.53:017][892]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.16-21.04.53:223][893]LogPlayLevel:Display: Destroying online subsystem :Context_30
+[2017.03.16-21.04.53:223][893]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
