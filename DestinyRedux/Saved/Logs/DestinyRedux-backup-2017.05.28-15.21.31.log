@@ -1,0 +1,1165 @@
+﻿Log file open, 05/28/17 14:40:55
+LogInit:Display: Running engine for game: DestinyRedux
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2064939309) SRandInit(-2064939309).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087904
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.28-21.40.56:724][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.28-21.40.56:724][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.28-21.40.56:743][  0]LogInit: Computer: CLU
+[2017.05.28-21.40.56:743][  0]LogInit: User: Steven4K
+[2017.05.28-21.40.56:743][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.28-21.40.56:743][  0]LogInit: High frequency timer resolution =3.914063 MHz
+[2017.05.28-21.40.56:744][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.28-21.40.56:744][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.28-21.40.56:744][  0]LogMemory: Process Physical Memory: 264.72 MB used, 264.72 MB peak
+[2017.05.28-21.40.56:744][  0]LogMemory: Process Virtual Memory: 262.54 MB used, 262.54 MB peak
+[2017.05.28-21.40.56:744][  0]LogMemory: Physical Memory: 4047.33 MB used,  12285.78 MB free, 16333.11 MB total
+[2017.05.28-21.40.56:744][  0]LogMemory: Virtual Memory: 646.94 MB used,  12285.78 MB free, 134217728.00 MB total
+[2017.05.28-21.40.56:995][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.28-21.40.58:580][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.28-21.40.58:610][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.05.28-21.40.58:610][  0]LogD3D11RHI:       8110/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.28-21.40.58:611][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.28-21.40.58:611][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.28-21.40.58:611][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.28-21.40.58:615][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.28-21.40.58:615][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.28-21.40.58:615][  0]LogWindows: EnumDisplayDevices:
+[2017.05.28-21.40.58:615][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.05.28-21.40.58:615][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.28-21.40.58:615][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.28-21.40.58:616][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.28-21.40.58:616][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.28-21.40.58:616][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.05.28-21.40.58:616][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.05.28-21.40.58:616][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.05.28-21.40.58:616][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.28-21.40.58:633][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.28-21.40.58:633][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.28-21.40.58:643][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.28-21.40.58:691][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Intermediate/Shaders/WorkingDirectory/15244/).
+[2017.05.28-21.40.58:691][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven4K/AppData/Local/Temp/UnrealShaderWorkingDir/85AF51F9405611359BBE2C9315B4DCBB/'.
+[2017.05.28-21.40.58:691][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.28-21.41.00:207][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.28-21.41.00:249][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.28-21.41.00:291][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.28-21.41.00:331][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.28-21.41.00:375][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.28-21.41.00:415][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.28-21.41.00:455][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.28-21.41.00:497][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.28-21.41.00:532][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.28-21.41.00:573][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.28-21.41.00:613][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.28-21.41.00:652][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.28-21.41.00:691][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.28-21.41.00:730][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.28-21.41.00:769][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.28-21.41.00:847][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.28-21.41.00:847][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.28-21.41.00:874][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.28-21.41.00:968][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.28-21.41.00:993][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.28-21.41.01:032][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.28-21.41.01:071][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.28-21.41.01:110][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.28-21.41.01:151][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.28-21.41.01:151][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.28-21.41.01:641][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.28-21.41.01:687][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.28-21.41.01:687][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.28-21.41.01:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.28-21.41.01:687][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.28-21.41.01:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.28-21.41.01:687][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.28-21.41.01:702][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.28-21.41.01:714][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven4K/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.28-21.41.01:721][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.28-21.41.01:730][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.28-21.41.01:731][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.28-21.41.03:277][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.28-21.41.03:279][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.28-21.41.03:452][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.28-21.41.03:484][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.28-21.41.03:521][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.28-21.41.03:521][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.28-21.41.03:521][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.28-21.41.04:253][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: destinyredux, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2158004914
+[2017.05.28-21.41.04:293][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.28-21.41.04:336][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025525 seconds
+[2017.05.28-21.41.04:339][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.28-21.41.04:339][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.28-21.41.04:339][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.28-21.41.06:231][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.28-21.41.06:264][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.28-21.41.06:665][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.28-21.41.06:992][  0]SourceControl: Info Source control is disabled
+[2017.05.28-21.41.07:033][  0]SourceControl: Info Source control is disabled
+[2017.05.28-21.41.07:068][  0]SourceControl: Info Source control is disabled
+[2017.05.28-21.41.07:102][  0]SourceControl: Info Source control is disabled
+[2017.05.28-21.41.08:023][  0]LogEngine: Initializing Engine...
+[2017.05.28-21.41.08:064][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.05.28-21.41.08:222][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.28-21.41.08:222][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2017.05.28-21.41.08:222][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.28-21.41.08:312][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.28-21.41.08:321][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.41.08:357][  0]LogInit: FAudioDevice initialized.
+[2017.05.28-21.41.08:382][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.28-21.41.08:390][  0]LogInit: Texture streaming: Enabled
+[2017.05.28-21.41.08:463][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.28-21.41.08:529][  0]LogInit: Transaction tracking system initialized
+[2017.05.28-21.41.08:786][  0]BlueprintLog: New page: Editor Load
+[2017.05.28-21.41.09:424][  0]LocalizationService: Info Localization service is disabled
+[2017.05.28-21.41.09:912][  0]LogConsoleResponse:Display: 
+[2017.05.28-21.41.10:113][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.28-21.41.10:113][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.28-21.41.10:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' took 0.02s
+[2017.05.28-21.41.10:906][  0]SourceControl: Info Source control is disabled
+[2017.05.28-21.41.10:906][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-21.41.10:908][  0]LightingResults: New page: Lighting Build
+[2017.05.28-21.41.10:937][  0]MapCheck: New page: Map Check
+[2017.05.28-21.41.10:938][  0]LightingResults: New page: Lighting Build
+[2017.05.28-21.41.11:541][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.05.28-21.41.11:541][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.05.28-21.41.14:728][  0]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.05.28-21.41.14:818][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.14:836][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.14:836][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:402][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:402][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:414][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:414][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:426][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:426][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:428][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:428][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:430][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:430][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:445][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:445][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:480][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:489][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:489][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:502][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:502][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:517][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:518][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:522][  0]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.05.28-21.41.15:544][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.15:544][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.17:170][  0]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.41.17:205][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-21.41.17:206][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-21.41.17:322][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.467ms to complete.
+[2017.05.28-21.41.17:322][  0]LogFileHelpers: Loading map 'Level_ShipModular' took 6.416
+[2017.05.28-21.41.17:493][  0]LogCollectionManager: Loaded 1 collections in 0.004117 seconds
+[2017.05.28-21.41.17:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' took 0.01s
+[2017.05.28-21.41.17:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' took 0.01s
+[2017.05.28-21.41.17:560][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' took 0.01s
+[2017.05.28-21.41.17:560][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.05.28-21.41.17:560][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.05.28-21.41.17:567][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2245 classes and 453 folders.
+[2017.05.28-21.41.17:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.28-21.41.17:806][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.28-21.41.17:840][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.28-21.41.17:878][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2017.05.28-21.41.17:979][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.28-21.41.17:984][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.28-21.41.18:039][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.28-21.41.18:039][  0]LogLoad: (Engine Initialization) Total time: 23.90 seconds
+[2017.05.28-21.41.18:039][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.54 seconds
+[2017.05.28-21.41.18:039][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.28-21.41.18:039][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.28-21.41.18:050][  0]LogOcInput: OculusInput pre-init called
+[2017.05.28-21.41.18:071][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.28-21.41.18:074][  0]LogSlate: Took 0.002469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.28-21.41.18:080][  0]LogSlate: Took 0.002671 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.28-21.41.18:085][  0]LogSlate: Took 0.002819 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.28-21.41.18:191][  0]LogSlate: Took 0.002541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.28-21.41.18:238][  1]LogRenderer: Reallocating scene render targets to support 1048x592 NumSamples 1 (Frame:2).
+[2017.05.28-21.41.18:252][  1]LogAssetRegistry: Asset discovery search completed in 13.9820 seconds
+[2017.05.28-21.41.18:253][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000004 seconds (found 0 objects)
+[2017.05.28-21.41.18:253][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000017 seconds (updated 0 objects)
+[2017.05.28-21.41.39:000][471]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.28-21.41.39:364][471]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.05.28-21.41.39:953][471]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.28-21.41.39:955][471]LogSlate: Took 0.002564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.28-21.41.46:883][ 76]LogSlate: Took 0.001873 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.28-21.41.57:033][872]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.05.28-21.41.57:155][872]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.57:155][872]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.57:177][872]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.57:177][872]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.57:276][872]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.57:486][872]LogSavePackage: Save=56.42ms
+[2017.05.28-21.41.57:486][872]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_Tooltip50FFFAD042BFDFA96A88989B178603DC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.05.28-21.41.57:488][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.05.28-21.41.58:622][958]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.41.58:642][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.41.58:642][958]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.41.58:653][958]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:41:58 AM)
+[2017.05.28-21.41.58:653][958]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.41.58:659][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006052s)
+[2017.05.28-21.41.58:660][958]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.41.58:660][958]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2017.05.28-21.41.58:661][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.007323s)
+[2017.05.28-21.41.58:683][958]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.41.58:683][958]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.41.58:689][958]LogInit: FAudioDevice initialized.
+[2017.05.28-21.41.58:715][958]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2fc8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2860_0///####STATCAT_Advanced####
+[2017.05.28-21.41.58:755][958]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.41.58:760][958]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.41.58
+[2017.05.28-21.41.58:760][958]LogWorld: Bringing up level for play took: 0.004123
+[2017.05.28-21.41.58:818][958]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.05.28-21.41.58:899][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:899][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:899][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:899][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:899][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:899][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:923][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:945][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.41.58:946][958]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.41.59:078][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:078][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.41.59:078][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:078][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:084][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:084][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.41.59:085][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:085][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:091][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:091][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.41.59:091][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:091][958]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.41.59:095][958]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.41.59:097][958]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.41.59:115][958]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.78
+[2017.05.28-21.41.59:167][958]LogRenderer: Reallocating scene render targets to support 1612x936 NumSamples 1 (Frame:3618).
+[2017.05.28-21.42.10:443][719]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.42.10:443][719]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.42.10:468][719]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.42.10:498][720]LogPlayLevel:Display: Destroying online subsystem :Context_3
+[2017.05.28-21.42.10:498][720]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip_LevelLight.PlayerMenu_StatTooltip_LevelLight:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/Subclass/Subclass_StatTooltip.Subclass_StatTooltip:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/Subclass/SubclassMenu.SubclassMenu:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/Subclass/Subclass_OverviewTooltip.Subclass_OverviewTooltip:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.Reputation_Tooltip:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/ProgressMenu/QuestInfoPage.QuestInfoPage:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip_LevelLight.PlayerMenu_StatTooltip_LevelLight_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_All.PlayerMenu_All_C:WidgetTree.SubclassMenu.WidgetTree_96.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/Subclass/Subclass_StatTooltip.Subclass_StatTooltip_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/Subclass/SubclassMenu.SubclassMenu_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/Subclass/Subclass_OverviewTooltip.Subclass_OverviewTooltip_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/ProgressMenu/QuestInfoPage.QuestInfoPage_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/MainWidget.MainWidget_C:WidgetTree.PlayerMenu_All.WidgetTree_148.SubclassMenu.WidgetTree_150.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_1:Reputation_Tooltip_C_0.WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_1:Reputation_Tooltip_C_2.WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.REINST_Reputation_Tooltip_C_83:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2 or VerticalBox /Game/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.Reputation_Tooltip_C:WidgetTree.VerticalBox_2
+[2017.05.28-21.42.24:533][755]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/ReDestiny/Widgets/PlayerMenu/PlayerMenu_StatTooltip.PlayerMenu_StatTooltip:WidgetTree.VerticalBox_2.VerticalBoxSlot_7) from referencer (Spacer /Engine/UMG/Editor/Transient.Spacer_0).  Import failed...
+[2017.05.28-21.42.24:533][755]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_7''
+[2017.05.28-21.42.44:914][325]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.05.28-21.42.45:006][325]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.42.45:006][325]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.42.45:055][325]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.42.45:206][325]LogSavePackage: Save=57.01ms
+[2017.05.28-21.42.45:206][325]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_TooltipACECD9C04CF6CBF5B67016AFF9D07118.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.05.28-21.42.45:207][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.05.28-21.42.45:936][378]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.42.45:953][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.42.45:953][378]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:42:45 AM)
+[2017.05.28-21.42.45:953][378]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.42.45:959][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006112s)
+[2017.05.28-21.42.45:959][378]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.42.45:959][378]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2017.05.28-21.42.45:960][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006896s)
+[2017.05.28-21.42.45:988][378]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.42.45:988][378]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.42.45:993][378]LogInit: FAudioDevice initialized.
+[2017.05.28-21.42.46:033][378]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.42.46:038][378]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.42.46
+[2017.05.28-21.42.46:038][378]LogWorld: Bringing up level for play took: 0.004592
+[2017.05.28-21.42.46:131][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:131][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:131][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:131][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:131][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:131][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:156][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:178][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:179][378]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.42.46:313][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:313][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.42.46:313][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:313][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:319][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:319][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.42.46:319][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:319][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:325][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:325][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.42.46:326][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:326][378]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.42.46:330][378]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.42.46:332][378]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.42.46:349][378]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.015
+[2017.05.28-21.42.52:458][784]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.42.52:458][784]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.42.52:482][784]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.42.52:512][785]LogPlayLevel:Display: Destroying online subsystem :Context_4
+[2017.05.28-21.42.52:512][785]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.43.03:959][633]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.05.28-21.43.04:049][633]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.04:049][633]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.04:095][633]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.04:242][633]LogSavePackage: Save=56.32ms
+[2017.05.28-21.43.04:242][633]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_TooltipB6386BB546C00B42CFB6B9BB9E3D2C50.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.05.28-21.43.04:244][633]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.05.28-21.43.04:762][671]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.43.04:777][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.43.04:778][671]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:43:04 AM)
+[2017.05.28-21.43.04:778][671]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.43.04:784][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006407s)
+[2017.05.28-21.43.04:785][671]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.43.04:785][671]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2017.05.28-21.43.04:785][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.007522s)
+[2017.05.28-21.43.04:807][671]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.04:807][671]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.43.04:813][671]LogInit: FAudioDevice initialized.
+[2017.05.28-21.43.04:852][671]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.43.04:858][671]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.43.04
+[2017.05.28-21.43.04:858][671]LogWorld: Bringing up level for play took: 0.004181
+[2017.05.28-21.43.04:951][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:951][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:952][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:952][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:952][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:952][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:975][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:997][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:997][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:998][671]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.04:999][671]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.05:141][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:141][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.43.05:141][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:141][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:148][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:148][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.43.05:149][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:149][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:155][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:155][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.43.05:155][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:155][671]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.05:159][671]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.43.05:162][671]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.43.05:179][671]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.845
+[2017.05.28-21.43.15:673][377]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.43.15:674][377]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.43.15:698][377]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.15:727][378]LogPlayLevel:Display: Destroying online subsystem :Context_5
+[2017.05.28-21.43.15:727][378]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.43.52:755][446]BlueprintLog: New page: Compile RewardSourceGroup
+[2017.05.28-21.43.52:819][446]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.52:819][446]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.52:891][446]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.53:004][446]LogSavePackage: Save=15.37ms
+[2017.05.28-21.43.53:004][446]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/RewardSourceGroup5A34F5A946DA9153F4217B98779918EA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/RewardSourceGroup.uasset'
+[2017.05.28-21.43.53:006][446]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/RewardSourceGroup.uasset
+[2017.05.28-21.43.54:150][534]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.43.54:169][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.43.54:169][534]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:43:54 AM)
+[2017.05.28-21.43.54:169][534]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.43.54:175][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006098s)
+[2017.05.28-21.43.54:175][534]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.43.54:176][534]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.05.28-21.43.54:176][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006983s)
+[2017.05.28-21.43.54:198][534]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.43.54:198][534]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.43.54:204][534]LogInit: FAudioDevice initialized.
+[2017.05.28-21.43.54:244][534]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.43.54:249][534]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.43.54
+[2017.05.28-21.43.54:250][534]LogWorld: Bringing up level for play took: 0.004234
+[2017.05.28-21.43.54:344][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:344][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:344][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:344][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:344][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:344][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:368][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:391][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:392][534]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.43.54:528][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:528][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.43.54:528][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:528][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:534][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:534][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.43.54:535][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:535][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:541][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:541][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.43.54:541][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:541][534]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.43.54:545][534]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.43.54:548][534]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.43.54:565][534]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.23
+[2017.05.28-21.44.07:556][435]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.44.07:557][435]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.44.07:582][435]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.07:611][436]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2017.05.28-21.44.07:611][436]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.44.23:205][593]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.05.28-21.44.23:297][593]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.23:297][593]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.23:346][593]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.23:490][593]LogSavePackage: Save=56.60ms
+[2017.05.28-21.44.23:490][593]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_Tooltip4194AC0842471C16006A7A926DF2E0EE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.05.28-21.44.23:492][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.05.28-21.44.23:929][623]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.44.23:948][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.44.23:948][623]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:44:23 AM)
+[2017.05.28-21.44.23:948][623]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.44.23:953][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005576s)
+[2017.05.28-21.44.23:954][623]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.44.23:954][623]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2017.05.28-21.44.23:954][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006386s)
+[2017.05.28-21.44.23:977][623]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.23:977][623]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.44.23:982][623]LogInit: FAudioDevice initialized.
+[2017.05.28-21.44.24:021][623]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.44.24:026][623]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.44.24
+[2017.05.28-21.44.24:026][623]LogWorld: Bringing up level for play took: 0.004171
+[2017.05.28-21.44.24:119][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:119][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:119][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:119][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:119][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:119][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:143][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:165][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:166][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:167][623]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.24:308][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:308][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.44.24:308][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:308][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:315][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:315][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.44.24:315][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:315][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:322][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:322][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.44.24:322][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:322][623]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.24:327][623]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.44.24:329][623]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.44.24:347][623]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.012
+[2017.05.28-21.44.39:473][629]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.44.39:473][629]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.44.39:497][629]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.39:527][630]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2017.05.28-21.44.39:527][630]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.44.50:097][368]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.44.50:116][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.44.50:116][368]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:44:50 AM)
+[2017.05.28-21.44.50:116][368]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.44.50:122][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005592s)
+[2017.05.28-21.44.50:123][368]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.44.50:123][368]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.05.28-21.44.50:123][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006770s)
+[2017.05.28-21.44.50:145][368]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.44.50:145][368]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.44.50:151][368]LogInit: FAudioDevice initialized.
+[2017.05.28-21.44.50:193][368]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.44.50:198][368]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.44.50
+[2017.05.28-21.44.50:198][368]LogWorld: Bringing up level for play took: 0.004362
+[2017.05.28-21.44.50:292][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:292][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:292][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:292][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:292][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:292][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:317][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:341][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:342][368]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.44.50:478][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:478][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.44.50:478][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:478][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:484][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:484][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.44.50:484][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:484][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:491][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:491][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.44.50:491][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:491][368]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.44.50:495][368]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.44.50:498][368]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.44.50:515][368]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular 0.181
+[2017.05.28-21.45.23:536][582]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.45.23:536][582]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.45.23:561][582]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.45.23:590][583]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2017.05.28-21.45.23:590][583]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.45.47:753][412]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.28-21.45.47:774][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-21.45.47:774][412]PIE: New page: PIE session: Level_ShipModular (May 28, 2017, 7:45:47 AM)
+[2017.05.28-21.45.47:774][412]LogPlayLevel: Creating play world package: /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular
+[2017.05.28-21.45.47:780][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005492s)
+[2017.05.28-21.45.47:780][412]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.28-21.45.47:780][412]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2017.05.28-21.45.47:781][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ReDestiny/Maps/Level_ShipModular.Level_ShipModular to /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular (0.006529s)
+[2017.05.28-21.45.47:804][412]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.45.47:804][412]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.28-21.45.47:809][412]LogInit: FAudioDevice initialized.
+[2017.05.28-21.45.47:851][412]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.28-21.45.47:856][412]LogWorld: Bringing World /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular.Level_ShipModular up for play (max tick rate 0) at 2017.05.28-14.45.47
+[2017.05.28-21.45.47:857][412]LogWorld: Bringing up level for play took: 0.004627
+[2017.05.28-21.45.47:949][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:949][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:949][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:949][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:949][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:949][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:972][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:994][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 3!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:995][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 1!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.45.47:996][412]LogScriptCore:Warning: Script Msg: Attempted to access index 5 from array ItemsForSale of length 2!
+[2017.05.28-21.45.48:129][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:129][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.45.48:130][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:130][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:136][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:136][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.45.48:136][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:136][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:143][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:143][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array DescriptionsPerStep_45_15D80D184978E964CBA818BD29849F37 of length 0!
+[2017.05.28-21.45.48:143][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:143][412]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array StepTitles_28_0E48D54E412A8F6965E5448C7D8E1D6C of length 0!
+[2017.05.28-21.45.48:147][412]LogBlueprintUserMessages: [FactionRep] Cryptarchy: Lvl.0 - 50 / 500
+[2017.05.28-21.45.48:150][412]LogBlueprintUserMessages: [FactionRep] House of Judgement: Lvl.3 - 0 / 2,500
+[2017.05.28-21.45.48:167][412]PIE: Info Play in editor start time for /Game/ReDestiny/Maps/UEDPIE_0_Level_ShipModular -0.168
+[2017.05.28-21.46.47:840][448]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.47.47:863][522]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.48.47:876][594]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.49.47:881][668]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.50.47:891][743]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.51.47:897][820]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.52.47:898][891]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.53.47:900][959]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.54.47:907][ 33]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.55.47:913][ 74]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.56.11:848][690]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.56.11:848][690]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.05.28-21.56.11:873][690]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.56.11:933][691]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2017.05.28-21.56.11:933][691]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.56.24:954][665]LogSlate: Took 0.002553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.28-21.59.04:710][685]BlueprintLog: New page: Compile RewardSourceGroup
+[2017.05.28-21.59.04:777][685]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.59.04:777][685]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.59.04:840][685]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.59.04:930][685]LogSavePackage: Save=15.67ms
+[2017.05.28-21.59.04:930][685]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/RewardSourceGroup7DA0E0664DD23734151046BF4F56EE43.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/RewardSourceGroup.uasset'
+[2017.05.28-21.59.04:932][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/RewardSourceGroup.uasset
+[2017.05.28-21.59.14:597][546]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.28-21.59.14:673][546]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.28-21.59.14:843][547]Cmd: QUIT_EDITOR
+[2017.05.28-21.59.15:353][547]LogExit: Preparing to exit.
+[2017.05.28-21.59.15:645][547]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' was aborted.
+[2017.05.28-21.59.15:710][547]LogExit: Editor shut down
+[2017.05.28-21.59.15:710][547]LogExit: Transaction tracking system shut down
+[2017.05.28-21.59.15:811][547]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.28-21.59.15:811][547]LogExit: Object subsystem successfully closed.
+[2017.05.28-21.59.15:829][547]LogD3D11RHI: Shutdown
+[2017.05.28-21.59.15:829][547]LogD3D11RHI: CleanupD3DDevice
+[2017.05.28-21.59.15:917][547]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (510)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module Voice (508)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module WorldBrowser (496)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.28-21.59.15:927][547]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.28-21.59.15:927][547]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.28-21.59.15:928][547]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' was aborted.
+[2017.05.28-21.59.15:928][547]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' was aborted.
+[2017.05.28-21.59.15:928][547]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' was aborted.
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.28-21.59.15:928][547]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.28-21.59.16:134][547]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.28-21.59.16:177][547]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.28-21.59.16:185][547]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.28-21.59.16:186][547]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.05.28-21.59.16:435][547]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.05.28-21.59.16:436][547]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.05.28-21.59.16:436][547]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.05.28-21.59.16:436][547]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.05.28-21.59.16:436][547]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.05.28-21.59.16:437][547]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.05.28-21.59.16:437][547]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.05.28-21.59.16:437][547]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.05.28-21.59.16:437][547]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.05.28-21.59.16:538][547]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (214)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (212)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (208)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module WmfMedia (202)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module MfMedia (200)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (196)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module VREditor (194)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (192)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (190)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module FunctionalTesting (188)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (186)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module AssetTools (180)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (178)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module SlateReflector (172)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module Slate (170)
+[2017.05.28-21.59.16:639][547]LogModuleManager: Shutting down and abandoning module EditorStyle (168)
+[2017.05.28-21.59.16:641][547]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (166)
+[2017.05.28-21.59.16:641][547]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (164)
+[2017.05.28-21.59.16:641][547]LogModuleManager: Shutting down and abandoning module XAudio2 (162)
+[2017.05.28-21.59.16:641][547]LogModuleManager: Shutting down and abandoning module Networking (160)
+[2017.05.28-21.59.16:641][547]LogModuleManager: Shutting down and abandoning module Core (158)
+[2017.05.28-21.59.16:641][547]LogModuleManager: Shutting down and abandoning module AssetRegistry (156)
+[2017.05.28-21.59.16:720][547]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.28-21.59.16:720][547]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' was aborted.
+[2017.05.28-21.59.16:720][547]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (155)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module PhysXFormats (150)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module MeshUtilities (148)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (145)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (143)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module PropertyEditor (141)
+[2017.05.28-21.59.16:720][547]LogModuleManager: Shutting down and abandoning module DerivedDataCache (138)
+[2017.05.28-21.59.16:724][547]LogDerivedDataCache: Shutdown
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TargetPlatform (136)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (135)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (133)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (131)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (129)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (127)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (125)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (123)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (121)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (119)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module ImageWrapper (118)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (115)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (113)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (111)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (109)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (107)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (105)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (103)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (101)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (99)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Messaging (97)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (95)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (93)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (91)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (89)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (87)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (85)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (83)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (81)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (79)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (67)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (65)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (63)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (61)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (59)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module OculusRift (52)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module GearVR (50)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.05.28-21.59.16:724][547]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.28-21.59.16:724][547]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.28-21.59.16:724][547]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.28-21.59.16:724][547]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.28-21.59.16:724][547]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2DABCA8B-4AB7-58E6-8E72-899606D39A80%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=6b2ddadf4c5a8bbf49ba50ae59c652c1%7C049a09598b90443da8e8e30d4d2b8ded%7C732e9ea2-b7f5-4be8-a08a-9afd69cb1240&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.28-21.59.16:750][547]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.28-21.59.16:751][547]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.28-21.59.16:751][547]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.28-21.59.16:751][547]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.28-21.59.16:751][547]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.28-21.59.16:751][547]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.28-21.59.16:753][547]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.28-21.59.16:755][547]LogExit: Exiting.
+[2017.05.28-21.59.16:756][547]Log file closed, 05/28/17 14:59:16

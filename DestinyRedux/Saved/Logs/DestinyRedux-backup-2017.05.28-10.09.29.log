@@ -1,0 +1,927 @@
+﻿Log file open, 05/26/17 11:45:36
+LogInit:Display: Running engine for game: DestinyRedux
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1930124163) SRandInit(1930124163).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.340696
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.26-18.45.37:822][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.26-18.45.37:823][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.26-18.45.37:952][  0]LogInit: Computer: CLU
+[2017.05.26-18.45.37:952][  0]LogInit: User: Steven4K
+[2017.05.26-18.45.37:952][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.26-18.45.37:952][  0]LogInit: High frequency timer resolution =3.914063 MHz
+[2017.05.26-18.45.37:952][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.05.26-18.45.37:952][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.26-18.45.37:952][  0]LogMemory: Process Physical Memory: 264.81 MB used, 264.81 MB peak
+[2017.05.26-18.45.37:952][  0]LogMemory: Process Virtual Memory: 262.48 MB used, 262.48 MB peak
+[2017.05.26-18.45.37:952][  0]LogMemory: Physical Memory: 6425.81 MB used,  9907.30 MB free, 16333.11 MB total
+[2017.05.26-18.45.37:952][  0]LogMemory: Virtual Memory: 646.94 MB used,  9907.30 MB free, 134217728.00 MB total
+[2017.05.26-18.45.38:529][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.26-18.45.44:072][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.26-18.45.44:105][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.05.26-18.45.44:105][  0]LogD3D11RHI:       8110/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.26-18.45.44:106][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.26-18.45.44:106][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.26-18.45.44:106][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.26-18.45.44:110][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.26-18.45.44:110][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.26-18.45.44:110][  0]LogWindows: EnumDisplayDevices:
+[2017.05.26-18.45.44:110][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.05.26-18.45.44:111][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.26-18.45.44:111][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.26-18.45.44:111][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.05.26-18.45.44:111][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.26-18.45.44:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.05.26-18.45.44:111][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.05.26-18.45.44:111][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.05.26-18.45.44:111][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.26-18.45.44:129][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.26-18.45.44:129][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.26-18.45.44:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.26-18.45.44:186][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Intermediate/Shaders/WorkingDirectory/11092/).
+[2017.05.26-18.45.44:186][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven4K/AppData/Local/Temp/UnrealShaderWorkingDir/EE0509974EC32718B5625297AC45C08B/'.
+[2017.05.26-18.45.44:186][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.26-18.45.49:922][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.26-18.45.49:963][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.26-18.45.50:003][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.26-18.45.50:043][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.26-18.45.50:100][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.26-18.45.50:141][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.26-18.45.50:182][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.26-18.45.50:222][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.26-18.45.50:255][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.26-18.45.50:319][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.26-18.45.50:358][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.26-18.45.50:397][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.26-18.45.50:435][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.26-18.45.50:474][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.26-18.45.50:513][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.26-18.45.50:590][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.26-18.45.50:590][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.26-18.45.50:617][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.26-18.45.50:732][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.26-18.45.50:760][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.26-18.45.50:801][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.26-18.45.50:846][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.26-18.45.50:885][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.26-18.45.50:941][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.26-18.45.50:941][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.26-18.45.51:770][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.26-18.45.52:140][  0]LogDerivedDataCache: Loaded boot cache 0.36s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.26-18.45.52:140][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.26-18.45.52:141][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.26-18.45.52:141][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.26-18.45.52:141][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.26-18.45.52:141][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.26-18.45.52:192][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.26-18.45.52:227][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven4K/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.26-18.45.52:235][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.26-18.45.52:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.26-18.45.52:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.26-18.46.00:752][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.26-18.46.00:778][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.26-18.46.01:027][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.26-18.46.01:081][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.26-18.46.01:120][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.26-18.46.01:120][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.26-18.46.01:120][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.26-18.46.03:638][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: destinyredux, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2158004914
+[2017.05.26-18.46.03:678][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.05.26-18.46.03:750][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.055138 seconds
+[2017.05.26-18.46.03:754][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.26-18.46.03:754][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.26-18.46.03:754][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.26-18.46.24:552][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.26-18.46.24:587][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.26-18.46.25:567][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.26-18.46.26:057][  0]SourceControl: Info Source control is disabled
+[2017.05.26-18.46.26:209][  0]SourceControl: Info Source control is disabled
+[2017.05.26-18.46.26:244][  0]SourceControl: Info Source control is disabled
+[2017.05.26-18.46.26:278][  0]SourceControl: Info Source control is disabled
+[2017.05.26-18.46.27:600][  0]LogEngine: Initializing Engine...
+[2017.05.26-18.46.27:754][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.05.26-18.46.28:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.26-18.46.28:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2017.05.26-18.46.28:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.26-18.46.28:593][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.26-18.46.28:601][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-18.46.28:638][  0]LogInit: FAudioDevice initialized.
+[2017.05.26-18.46.28:661][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.26-18.46.28:671][  0]LogInit: Texture streaming: Enabled
+[2017.05.26-18.46.28:743][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.26-18.46.28:849][  0]LogInit: Transaction tracking system initialized
+[2017.05.26-18.46.29:105][  0]BlueprintLog: New page: Editor Load
+[2017.05.26-18.46.29:798][  0]LocalizationService: Info Localization service is disabled
+[2017.05.26-18.46.30:674][  0]LogConsoleResponse:Display: 
+[2017.05.26-18.46.33:569][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.26-18.46.33:569][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.26-18.46.34:474][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' took 0.02s
+[2017.05.26-18.46.36:019][  0]SourceControl: Info Source control is disabled
+[2017.05.26-18.46.36:019][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.26-18.46.36:131][  0]LightingResults: New page: Lighting Build
+[2017.05.26-18.46.36:161][  0]MapCheck: New page: Map Check
+[2017.05.26-18.46.36:161][  0]LightingResults: New page: Lighting Build
+[2017.05.26-18.46.40:800][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.05.26-18.46.40:800][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.05.26-18.46.58:794][  0]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.05.26-18.46.59:049][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:066][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:066][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:769][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:769][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:783][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:783][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:794][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:794][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:797][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:797][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:799][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:799][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:813][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:813][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:849][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:857][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:857][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:870][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:870][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:885][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:885][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:890][  0]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.05.26-18.46.59:911][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.46.59:911][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.47.16:129][  0]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.05.26-18.47.16:208][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.26-18.47.16:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.26-18.47.16:316][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.901ms to complete.
+[2017.05.26-18.47.16:316][  0]LogFileHelpers: Loading map 'Level_ShipModular' took 40.296
+[2017.05.26-18.47.16:513][  0]LogCollectionManager: Loaded 1 collections in 0.004295 seconds
+[2017.05.26-18.47.16:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' took 0.01s
+[2017.05.26-18.47.16:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' took 0.01s
+[2017.05.26-18.47.16:579][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' took 0.01s
+[2017.05.26-18.47.16:579][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.05.26-18.47.16:579][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.05.26-18.47.16:586][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2245 classes and 453 folders.
+[2017.05.26-18.47.16:635][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.26-18.47.17:866][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.26-18.47.17:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.26-18.47.17:939][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2017.05.26-18.47.18:055][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.26-18.47.18:059][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.26-18.47.18:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.26-18.47.18:113][  0]LogLoad: (Engine Initialization) Total time: 106.98 seconds
+[2017.05.26-18.47.18:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.61 seconds
+[2017.05.26-18.47.18:113][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.26-18.47.18:113][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.26-18.47.18:453][  0]LogOcInput: OculusInput pre-init called
+[2017.05.26-18.47.18:473][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.26-18.47.18:491][  0]LogSlate: Took 0.017870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.26-18.47.18:511][  0]LogSlate: Took 0.016161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.26-18.47.18:537][  0]LogSlate: Took 0.024224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.26-18.47.18:806][  0]LogSlate: Took 0.023984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.26-18.47.18:848][  1]LogRenderer: Reallocating scene render targets to support 1028x592 NumSamples 1 (Frame:2).
+[2017.05.26-18.47.18:866][  1]LogAssetRegistry: Asset discovery search completed in 75.2094 seconds
+[2017.05.26-18.47.18:866][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2017.05.26-18.47.18:866][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000015 seconds (updated 0 objects)
+[2017.05.26-18.48.44:442][653]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.26-18.48.44:466][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_SparrowRacing.jpg)
+[2017.05.26-18.48.44:534][653]LogTexture:Display: Building textures: Rwd_SparrowRacing (BGRA8, 150X150) - 199 MB total VRAM
+[2017.05.26-18.48.44:572][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Arm_Legendary.jpg)
+[2017.05.26-18.48.44:577][653]LogTexture:Display: Building textures: Rwd_Arm_Legendary (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:584][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Arm_Rare.jpg)
+[2017.05.26-18.48.44:586][653]LogTexture:Display: Building textures: Rwd_Arm_Rare (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:594][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Arm_Uncommon.jpg)
+[2017.05.26-18.48.44:599][653]LogTexture:Display: Building textures: Rwd_Arm_Uncommon (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:607][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Arm_Upgrade.jpg)
+[2017.05.26-18.48.44:632][653]LogTexture:Display: Building textures: Rwd_Arm_Upgrade (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:640][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Crucible.jpg)
+[2017.05.26-18.48.44:653][653]LogTexture:Display: Building textures: Rwd_Crucible (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:661][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Cryptarchy.jpg)
+[2017.05.26-18.48.44:665][653]LogTexture:Display: Building textures: Rwd_Cryptarchy (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:670][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_ErisMorn.jpg)
+[2017.05.26-18.48.44:675][653]LogTexture:Display: Building textures: Rwd_ErisMorn (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:680][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Exp.png)
+[2017.05.26-18.48.44:684][653]LogTexture:Display: Building textures: Rwd_Exp (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:692][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Gunsmith.jpg)
+[2017.05.26-18.48.44:697][653]LogTexture:Display: Building textures: Rwd_Gunsmith (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:703][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_IronBanner.jpg)
+[2017.05.26-18.48.44:707][653]LogTexture:Display: Building textures: Rwd_IronBanner (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:712][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Judgement.jpg)
+[2017.05.26-18.48.44:717][653]LogTexture:Display: Building textures: Rwd_Judgement (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:723][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Queen.jpg)
+[2017.05.26-18.48.44:727][653]LogTexture:Display: Building textures: Rwd_Queen (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:732][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Shader.jpg)
+[2017.05.26-18.48.44:735][653]LogTexture:Display: Building textures: Rwd_Shader (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:740][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Ship.jpg)
+[2017.05.26-18.48.44:742][653]LogTexture:Display: Building textures: Rwd_Ship (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:747][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Sparrow_Upgrade.jpg)
+[2017.05.26-18.48.44:768][653]LogTexture:Display: Building textures: Rwd_Sparrow_Upgrade (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:773][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_SRL.jpg)
+[2017.05.26-18.48.44:775][653]LogTexture:Display: Building textures: Rwd_SRL (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:781][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Unknown.jpg)
+[2017.05.26-18.48.44:785][653]LogTexture:Display: Building textures: Rwd_Unknown (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:791][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Vanguard.jpg)
+[2017.05.26-18.48.44:795][653]LogTexture:Display: Building textures: Rwd_Vanguard (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:800][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Wpn_Legendary.jpg)
+[2017.05.26-18.48.44:806][653]LogTexture:Display: Building textures: Rwd_Wpn_Legendary (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:811][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Wpn_Rare.jpg)
+[2017.05.26-18.48.44:823][653]LogTexture:Display: Building textures: Rwd_Wpn_Rare (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:828][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Wpn_Uncommon.jpg)
+[2017.05.26-18.48.44:830][653]LogTexture:Display: Building textures: Rwd_Wpn_Uncommon (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:835][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Wpn_Upgrade.jpg)
+[2017.05.26-18.48.44:837][653]LogTexture:Display: Building textures: Rwd_Wpn_Upgrade (BGRA8, 30X30) - 199 MB total VRAM
+[2017.05.26-18.48.44:843][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Nightfall.jpg)
+[2017.05.26-18.48.44:848][653]LogTexture:Display: Building textures: Rwd_Nightfall (AutoDXT, 40X40) - 199 MB total VRAM
+[2017.05.26-18.48.44:871][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_AgeOfTriumph.png)
+[2017.05.26-18.48.44:875][653]LogTexture:Display: Building textures: Rwd_AgeOfTriumph (AutoDXT, 96X96) - 199 MB total VRAM
+[2017.05.26-18.48.44:886][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_FestivalOfTheLost.jpg)
+[2017.05.26-18.48.44:890][653]LogTexture:Display: Building textures: Rwd_FestivalOfTheLost (AutoDXT, 96X96) - 199 MB total VRAM
+[2017.05.26-18.48.44:903][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_RaidReprise.png)
+[2017.05.26-18.48.44:906][653]LogTexture:Display: Building textures: Rwd_RaidReprise (AutoDXT, 96X96) - 199 MB total VRAM
+[2017.05.26-18.48.44:913][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_ArchonsForge.png)
+[2017.05.26-18.48.44:916][653]LogTexture:Display: Building textures: Rwd_ArchonsForge (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:923][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Book_RiseOfIron.png)
+[2017.05.26-18.48.44:926][653]LogTexture:Display: Building textures: Rwd_Book_RiseOfIron (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:932][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_CharacterCreation.png)
+[2017.05.26-18.48.44:935][653]LogTexture:Display: Building textures: Rwd_CharacterCreation (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:942][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_CrimsonDoubles.jpg)
+[2017.05.26-18.48.44:944][653]LogTexture:Display: Building textures: Rwd_CrimsonDoubles (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:951][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Crucible_Activity.png)
+[2017.05.26-18.48.44:955][653]LogTexture:Display: Building textures: Rwd_Crucible_Activity (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:962][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Dreadnaught.png)
+[2017.05.26-18.48.44:964][653]LogTexture:Display: Building textures: Rwd_Dreadnaught (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:972][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Earth.png)
+[2017.05.26-18.48.44:975][653]LogTexture:Display: Building textures: Rwd_Earth (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:981][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_EvolveItem.png)
+[2017.05.26-18.48.44:984][653]LogTexture:Display: Building textures: Rwd_EvolveItem (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.44:991][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_ExoticBounty.png)
+[2017.05.26-18.48.44:994][653]LogTexture:Display: Building textures: Rwd_ExoticBounty (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.45:001][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Faction_DO.png)
+[2017.05.26-18.48.45:004][653]LogTexture:Display: Building textures: Rwd_Faction_DO (BGRA8, 145X145) - 199 MB total VRAM
+[2017.05.26-18.48.45:011][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Faction_FWC.png)
+[2017.05.26-18.48.45:014][653]LogTexture:Display: Building textures: Rwd_Faction_FWC (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:021][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Faction_NM.png)
+[2017.05.26-18.48.45:024][653]LogTexture:Display: Building textures: Rwd_Faction_NM (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:030][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_IronTemple_BountyGiver.png)
+[2017.05.26-18.48.45:034][653]LogTexture:Display: Building textures: Rwd_IronTemple_BountyGiver (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:040][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_IronTemple_Cryptarch.png)
+[2017.05.26-18.48.45:043][653]LogTexture:Display: Building textures: Rwd_IronTemple_Cryptarch (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:050][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_IronTemple_IronBanner.png)
+[2017.05.26-18.48.45:067][653]LogTexture:Display: Building textures: Rwd_IronTemple_IronBanner (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:074][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_IronTemple_Saladin.png)
+[2017.05.26-18.48.45:077][653]LogTexture:Display: Building textures: Rwd_IronTemple_Saladin (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:084][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_IronTemple_Shiro.png)
+[2017.05.26-18.48.45:105][653]LogTexture:Display: Building textures: Rwd_IronTemple_Shiro (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:112][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Mars.png)
+[2017.05.26-18.48.45:115][653]LogTexture:Display: Building textures: Rwd_Mars (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:123][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_MomentsOfTriumph_Y2.png)
+[2017.05.26-18.48.45:151][653]LogTexture:Display: Building textures: Rwd_MomentsOfTriumph_Y2 (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:157][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Moon.png)
+[2017.05.26-18.48.45:161][653]LogTexture:Display: Building textures: Rwd_Moon (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:167][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Patrols.png)
+[2017.05.26-18.48.45:173][653]LogTexture:Display: Building textures: Rwd_Patrols (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:180][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_PublicEvents.png)
+[2017.05.26-18.48.45:183][653]LogTexture:Display: Building textures: Rwd_PublicEvents (BGRA8, 145X145) - 200 MB total VRAM
+[2017.05.26-18.48.45:190][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Quest.png)
+[2017.05.26-18.48.45:211][653]LogTexture:Display: Building textures: Rwd_Quest (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:240][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Raid_CrotasEnd.png)
+[2017.05.26-18.48.45:243][653]LogTexture:Display: Building textures: Rwd_Raid_CrotasEnd (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:250][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Raid_KingsFall.png)
+[2017.05.26-18.48.45:256][653]LogTexture:Display: Building textures: Rwd_Raid_KingsFall (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:266][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Raid_VaultOfGlass.png)
+[2017.05.26-18.48.45:270][653]LogTexture:Display: Building textures: Rwd_Raid_VaultOfGlass (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:276][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Raid_WrathOfTheMachine.png)
+[2017.05.26-18.48.45:300][653]LogTexture:Display: Building textures: Rwd_Raid_WrathOfTheMachine (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:307][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Reef_ChallengeOfTheElders.jpg)
+[2017.05.26-18.48.45:310][653]LogTexture:Display: Building textures: Rwd_Reef_ChallengeOfTheElders (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:317][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Reef_Petra.png)
+[2017.05.26-18.48.45:321][653]LogTexture:Display: Building textures: Rwd_Reef_Petra (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:327][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Reef_PrisonOfElders.png)
+[2017.05.26-18.48.45:346][653]LogTexture:Display: Building textures: Rwd_Reef_PrisonOfElders (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:353][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Reef_Trials.png)
+[2017.05.26-18.48.45:356][653]LogTexture:Display: Building textures: Rwd_Reef_Trials (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:363][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Reef_Variks.png)
+[2017.05.26-18.48.45:366][653]LogTexture:Display: Building textures: Rwd_Reef_Variks (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:373][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_ReferAFriend.png)
+[2017.05.26-18.48.45:376][653]LogTexture:Display: Building textures: Rwd_ReferAFriend (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:383][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_RiseOfIron.png)
+[2017.05.26-18.48.45:386][653]LogTexture:Display: Building textures: Rwd_RiseOfIron (BGRA8, 145X145) - 201 MB total VRAM
+[2017.05.26-18.48.45:393][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_SilverDust.jpg)
+[2017.05.26-18.48.45:396][653]LogTexture:Display: Building textures: Rwd_SilverDust (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:403][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Strike.png)
+[2017.05.26-18.48.45:406][653]LogTexture:Display: Building textures: Rwd_Strike (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:413][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Strike_Heroic.png)
+[2017.05.26-18.48.45:431][653]LogTexture:Display: Building textures: Rwd_Strike_Heroic (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:439][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_TakenKing.png)
+[2017.05.26-18.48.45:442][653]LogTexture:Display: Building textures: Rwd_TakenKing (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:449][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_BountyGiver.png)
+[2017.05.26-18.48.45:452][653]LogTexture:Display: Building textures: Rwd_Tower_BountyGiver (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:459][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Crucible.png)
+[2017.05.26-18.48.45:462][653]LogTexture:Display: Building textures: Rwd_Tower_Crucible (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:470][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Cryptarch.png)
+[2017.05.26-18.48.45:473][653]LogTexture:Display: Building textures: Rwd_Tower_Cryptarch (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:480][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_ErisMorn.png)
+[2017.05.26-18.48.45:483][653]LogTexture:Display: Building textures: Rwd_Tower_ErisMorn (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:490][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Eververse.png)
+[2017.05.26-18.48.45:493][653]LogTexture:Display: Building textures: Rwd_Tower_Eververse (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:500][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Gunsmith.png)
+[2017.05.26-18.48.45:517][653]LogTexture:Display: Building textures: Rwd_Tower_Gunsmith (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:524][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Outfitter.png)
+[2017.05.26-18.48.45:527][653]LogTexture:Display: Building textures: Rwd_Tower_Outfitter (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:533][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Shipwright.png)
+[2017.05.26-18.48.45:537][653]LogTexture:Display: Building textures: Rwd_Tower_Shipwright (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:544][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Tower_Speaker.png)
+[2017.05.26-18.48.45:547][653]LogTexture:Display: Building textures: Rwd_Tower_Speaker (BGRA8, 145X145) - 202 MB total VRAM
+[2017.05.26-18.48.45:555][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Trials.png)
+[2017.05.26-18.48.45:558][653]LogTexture:Display: Building textures: Rwd_Trials (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:564][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_UnknownActivity.png)
+[2017.05.26-18.48.45:567][653]LogTexture:Display: Building textures: Rwd_UnknownActivity (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:574][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Vanguard_Hunter.png)
+[2017.05.26-18.48.45:577][653]LogTexture:Display: Building textures: Rwd_Vanguard_Hunter (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:584][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Vanguard_Quartermaster.png)
+[2017.05.26-18.48.45:587][653]LogTexture:Display: Building textures: Rwd_Vanguard_Quartermaster (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:594][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Vanguard_Titan.png)
+[2017.05.26-18.48.45:598][653]LogTexture:Display: Building textures: Rwd_Vanguard_Titan (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:605][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Vanguard_Warlock.png)
+[2017.05.26-18.48.45:608][653]LogTexture:Display: Building textures: Rwd_Vanguard_Warlock (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:615][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Venus.png)
+[2017.05.26-18.48.45:618][653]LogTexture:Display: Building textures: Rwd_Venus (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.48.45:625][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Steven4K\Desktop\ReDestiny\RewardSources\Rwd_Xur.png)
+[2017.05.26-18.48.45:631][653]LogTexture:Display: Building textures: Rwd_Xur (BGRA8, 145X145) - 203 MB total VRAM
+[2017.05.26-18.49.26:706][ 72]LogTexture:Display: Building textures: Rwd_AgeOfTriumph (BGRA8, 96X96) - 203 MB total VRAM
+[2017.05.26-18.49.26:808][ 72]LogTexture:Display: Building textures: Rwd_FestivalOfTheLost (BGRA8, 96X96) - 203 MB total VRAM
+[2017.05.26-18.49.26:860][ 72]LogTexture:Display: Building textures: Rwd_Nightfall (BGRA8, 40X40) - 203 MB total VRAM
+[2017.05.26-18.49.26:924][ 72]LogTexture:Display: Building textures: Rwd_RaidReprise (BGRA8, 96X96) - 203 MB total VRAM
+[2017.05.26-18.49.33:137][589]LogSavePackage: Save=5.75ms
+[2017.05.26-18.49.33:137][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_AgeOfTriumphCEC454D74C5494AFB46D799CD804886D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_AgeOfTriumph.uasset'
+[2017.05.26-18.49.33:143][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_AgeOfTriumph.uasset
+[2017.05.26-18.49.33:161][589]LogSavePackage: Save=9.28ms
+[2017.05.26-18.49.33:161][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_ArchonsForge5068F7154685A8097E7AB0B578687F7D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ArchonsForge.uasset'
+[2017.05.26-18.49.33:163][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ArchonsForge.uasset
+[2017.05.26-18.49.33:174][589]LogSavePackage: Save=3.91ms
+[2017.05.26-18.49.33:174][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Arm_Legendary322E663F497E4DC04EAE74BAC70CF519.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Legendary.uasset'
+[2017.05.26-18.49.33:176][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Legendary.uasset
+[2017.05.26-18.49.33:183][589]LogSavePackage: Save=3.92ms
+[2017.05.26-18.49.33:183][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Arm_Rare941053E5448FB2C90E31A49846C8D1D5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Rare.uasset'
+[2017.05.26-18.49.33:185][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Rare.uasset
+[2017.05.26-18.49.33:195][589]LogSavePackage: Save=3.74ms
+[2017.05.26-18.49.33:195][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Arm_Uncommon278A0CF0406EC88376E53D9442874A31.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Uncommon.uasset'
+[2017.05.26-18.49.33:197][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Uncommon.uasset
+[2017.05.26-18.49.33:205][589]LogSavePackage: Save=3.97ms
+[2017.05.26-18.49.33:205][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Arm_UpgradeBBC117DC437D6FE7A798DF8530309C25.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Upgrade.uasset'
+[2017.05.26-18.49.33:207][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Arm_Upgrade.uasset
+[2017.05.26-18.49.33:224][589]LogSavePackage: Save=9.04ms
+[2017.05.26-18.49.33:224][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Book_RiseOfIronA37148314B799AA8175C918EB0756A0C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Book_RiseOfIron.uasset'
+[2017.05.26-18.49.33:225][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Book_RiseOfIron.uasset
+[2017.05.26-18.49.33:242][589]LogSavePackage: Save=8.55ms
+[2017.05.26-18.49.33:242][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_CharacterCreation3136657B411E820FCBE030B68C9649C8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_CharacterCreation.uasset'
+[2017.05.26-18.49.33:244][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_CharacterCreation.uasset
+[2017.05.26-18.49.33:258][589]LogSavePackage: Save=6.44ms
+[2017.05.26-18.49.33:258][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_CrimsonDoublesC6532AB8411F344A3C7CBCB53BA31059.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_CrimsonDoubles.uasset'
+[2017.05.26-18.49.33:260][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_CrimsonDoubles.uasset
+[2017.05.26-18.49.33:268][589]LogSavePackage: Save=4.04ms
+[2017.05.26-18.49.33:268][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Crucible09F9C7EB4836F08645FAADBC46B75CAE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Crucible.uasset'
+[2017.05.26-18.49.33:270][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Crucible.uasset
+[2017.05.26-18.49.33:285][589]LogSavePackage: Save=8.61ms
+[2017.05.26-18.49.33:285][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Crucible_Activity011197944AE0A800F8096A9FC387BF8B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Crucible_Activity.uasset'
+[2017.05.26-18.49.33:287][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Crucible_Activity.uasset
+[2017.05.26-18.49.33:295][589]LogSavePackage: Save=3.98ms
+[2017.05.26-18.49.33:295][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Cryptarchy9B781BC5483EE16883BA458A5AB6A97F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Cryptarchy.uasset'
+[2017.05.26-18.49.33:297][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Cryptarchy.uasset
+[2017.05.26-18.49.33:311][589]LogSavePackage: Save=9.15ms
+[2017.05.26-18.49.33:311][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Dreadnaught0BB4EEB0482778F0BF2A978D402B1C54.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Dreadnaught.uasset'
+[2017.05.26-18.49.33:313][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Dreadnaught.uasset
+[2017.05.26-18.49.33:332][589]LogSavePackage: Save=9.39ms
+[2017.05.26-18.49.33:332][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Earth1B55968C437FB5B31E86FBAB133C1DDB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Earth.uasset'
+[2017.05.26-18.49.33:334][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Earth.uasset
+[2017.05.26-18.49.33:344][589]LogSavePackage: Save=3.88ms
+[2017.05.26-18.49.33:344][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_ErisMorn2F17B0F0460E199C473A6494C1D70064.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ErisMorn.uasset'
+[2017.05.26-18.49.33:346][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ErisMorn.uasset
+[2017.05.26-18.49.33:359][589]LogSavePackage: Save=7.56ms
+[2017.05.26-18.49.33:359][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_EvolveItemAA4D7A5B4AFCB22243DC649CC13D321C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_EvolveItem.uasset'
+[2017.05.26-18.49.33:361][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_EvolveItem.uasset
+[2017.05.26-18.49.33:375][589]LogSavePackage: Save=8.46ms
+[2017.05.26-18.49.33:375][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_ExoticBounty61F5CD254AF940182CD382B0FC1AEB1C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ExoticBounty.uasset'
+[2017.05.26-18.49.33:377][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ExoticBounty.uasset
+[2017.05.26-18.49.33:384][589]LogSavePackage: Save=3.83ms
+[2017.05.26-18.49.33:385][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_ExpA093CC17493B7B851E6B0DAE084BCB45.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Exp.uasset'
+[2017.05.26-18.49.33:386][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Exp.uasset
+[2017.05.26-18.49.33:400][589]LogSavePackage: Save=8.62ms
+[2017.05.26-18.49.33:400][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Faction_DOAE4A695A4BB09DB1096C91B16B5F84A9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Faction_DO.uasset'
+[2017.05.26-18.49.33:402][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Faction_DO.uasset
+[2017.05.26-18.49.33:420][589]LogSavePackage: Save=8.81ms
+[2017.05.26-18.49.33:420][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Faction_FWC4618ECCE49CB92BD7EBE7E8DD4F7AB63.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Faction_FWC.uasset'
+[2017.05.26-18.49.33:422][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Faction_FWC.uasset
+[2017.05.26-18.49.33:439][589]LogSavePackage: Save=8.72ms
+[2017.05.26-18.49.33:439][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Faction_NM8FE475484F09E7983948C990E3D357C5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Faction_NM.uasset'
+[2017.05.26-18.49.33:441][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Faction_NM.uasset
+[2017.05.26-18.49.33:452][589]LogSavePackage: Save=6.09ms
+[2017.05.26-18.49.33:452][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_FestivalOfTheLost157B0AD14B15AE6F12D908A543EFBFEC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_FestivalOfTheLost.uasset'
+[2017.05.26-18.49.33:454][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_FestivalOfTheLost.uasset
+[2017.05.26-18.49.33:461][589]LogSavePackage: Save=3.84ms
+[2017.05.26-18.49.33:461][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_GunsmithBB0C37E1472FD1EE2ACA5BB2726A5B62.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Gunsmith.uasset'
+[2017.05.26-18.49.33:463][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Gunsmith.uasset
+[2017.05.26-18.49.33:471][589]LogSavePackage: Save=4.04ms
+[2017.05.26-18.49.33:471][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_IronBanner3D50E9BE431DBBC04F3C76AEB1BCBFCA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronBanner.uasset'
+[2017.05.26-18.49.33:473][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronBanner.uasset
+[2017.05.26-18.49.33:488][589]LogSavePackage: Save=8.73ms
+[2017.05.26-18.49.33:488][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_IronTemple_BountyGiver2EE725C74EF23B1131047297CEE976C2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_BountyGiver.uasset'
+[2017.05.26-18.49.33:490][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_BountyGiver.uasset
+[2017.05.26-18.49.33:504][589]LogSavePackage: Save=8.86ms
+[2017.05.26-18.49.33:504][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_IronTemple_Cryptarch1120E83F42CBF698257B40B0650190A1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_Cryptarch.uasset'
+[2017.05.26-18.49.33:506][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_Cryptarch.uasset
+[2017.05.26-18.49.33:521][589]LogSavePackage: Save=9.08ms
+[2017.05.26-18.49.33:521][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_IronTemple_IronBannerD10B4B58429CE046E9F8EFA6E31BFE06.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_IronBanner.uasset'
+[2017.05.26-18.49.33:523][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_IronBanner.uasset
+[2017.05.26-18.49.33:538][589]LogSavePackage: Save=9.10ms
+[2017.05.26-18.49.33:538][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_IronTemple_SaladinD4E04A6842E9DAD9A3C93D81DF9E1D26.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_Saladin.uasset'
+[2017.05.26-18.49.33:539][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_Saladin.uasset
+[2017.05.26-18.49.33:554][589]LogSavePackage: Save=9.34ms
+[2017.05.26-18.49.33:554][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_IronTemple_ShiroED8236894B8358E4F2C263BDD2EFD3C2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_Shiro.uasset'
+[2017.05.26-18.49.33:556][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_IronTemple_Shiro.uasset
+[2017.05.26-18.49.33:567][589]LogSavePackage: Save=3.84ms
+[2017.05.26-18.49.33:567][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_JudgementFC7F9A1B476C3DD1FF94DDA6854525F0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Judgement.uasset'
+[2017.05.26-18.49.33:569][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Judgement.uasset
+[2017.05.26-18.49.33:584][589]LogSavePackage: Save=8.90ms
+[2017.05.26-18.49.33:584][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_MarsB31985CC4DEF8CB4F76CE99D01B93E44.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Mars.uasset'
+[2017.05.26-18.49.33:585][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Mars.uasset
+[2017.05.26-18.49.33:602][589]LogSavePackage: Save=8.41ms
+[2017.05.26-18.49.33:602][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_MomentsOfTriumph_Y2469E3F054612D60654BBE8BF78C5CF94.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_MomentsOfTriumph_Y2.uasset'
+[2017.05.26-18.49.33:604][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_MomentsOfTriumph_Y2.uasset
+[2017.05.26-18.49.33:619][589]LogSavePackage: Save=8.83ms
+[2017.05.26-18.49.33:619][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Moon65120DE24D3C855A8E6351A73ACA6922.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Moon.uasset'
+[2017.05.26-18.49.33:621][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Moon.uasset
+[2017.05.26-18.49.33:629][589]LogSavePackage: Save=4.13ms
+[2017.05.26-18.49.33:629][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Nightfall9120880B4BB5281BE37AEBBEE680F493.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Nightfall.uasset'
+[2017.05.26-18.49.33:631][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Nightfall.uasset
+[2017.05.26-18.49.33:648][589]LogSavePackage: Save=8.32ms
+[2017.05.26-18.49.33:648][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_PatrolsBFA691CA4EDC41A61EE026A570301148.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Patrols.uasset'
+[2017.05.26-18.49.33:650][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Patrols.uasset
+[2017.05.26-18.49.33:664][589]LogSavePackage: Save=8.63ms
+[2017.05.26-18.49.33:665][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_PublicEvents42FFAF8D45F87926EF7EC19DB898CA9D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_PublicEvents.uasset'
+[2017.05.26-18.49.33:666][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_PublicEvents.uasset
+[2017.05.26-18.49.33:676][589]LogSavePackage: Save=3.86ms
+[2017.05.26-18.49.33:676][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Queen8DEF5C8A468393ABB063DE94AFFA159A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Queen.uasset'
+[2017.05.26-18.49.33:678][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Queen.uasset
+[2017.05.26-18.49.33:692][589]LogSavePackage: Save=8.44ms
+[2017.05.26-18.49.33:692][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Quest6AE1050C40448D0A6262848C2BE26CD9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Quest.uasset'
+[2017.05.26-18.49.33:694][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Quest.uasset
+[2017.05.26-18.49.33:710][589]LogSavePackage: Save=9.81ms
+[2017.05.26-18.49.33:710][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Raid_CrotasEndD6056DA64DA3012136E48AA1DFAE9D66.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_CrotasEnd.uasset'
+[2017.05.26-18.49.33:711][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_CrotasEnd.uasset
+[2017.05.26-18.49.33:727][589]LogSavePackage: Save=8.36ms
+[2017.05.26-18.49.33:727][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Raid_KingsFallA5E27EB249BEB7943583E3BC776813AC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_KingsFall.uasset'
+[2017.05.26-18.49.33:729][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_KingsFall.uasset
+[2017.05.26-18.49.33:746][589]LogSavePackage: Save=9.76ms
+[2017.05.26-18.49.33:746][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Raid_VaultOfGlassD316DB7248CB4AF1CC27DCB714968386.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_VaultOfGlass.uasset'
+[2017.05.26-18.49.33:748][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_VaultOfGlass.uasset
+[2017.05.26-18.49.33:763][589]LogSavePackage: Save=9.00ms
+[2017.05.26-18.49.33:763][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Raid_WrathOfTheMachine8B07E54A449840C8755005A7E2F5B2DD.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_WrathOfTheMachine.uasset'
+[2017.05.26-18.49.33:765][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Raid_WrathOfTheMachine.uasset
+[2017.05.26-18.49.33:775][589]LogSavePackage: Save=4.81ms
+[2017.05.26-18.49.33:775][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_RaidRepriseCEE6083644A77EDCF45989BD81F0A712.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_RaidReprise.uasset'
+[2017.05.26-18.49.33:777][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_RaidReprise.uasset
+[2017.05.26-18.49.33:791][589]LogSavePackage: Save=8.12ms
+[2017.05.26-18.49.33:791][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Reef_ChallengeOfTheElders7654B3C049449A2BF1131DA54E2C5C8A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_ChallengeOfTheElders.uasset'
+[2017.05.26-18.49.33:793][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_ChallengeOfTheElders.uasset
+[2017.05.26-18.49.33:808][589]LogSavePackage: Save=8.87ms
+[2017.05.26-18.49.33:808][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Reef_Petra1409C47244CD61A6A387439D6C079DE1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_Petra.uasset'
+[2017.05.26-18.49.33:810][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_Petra.uasset
+[2017.05.26-18.49.33:824][589]LogSavePackage: Save=8.66ms
+[2017.05.26-18.49.33:824][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Reef_PrisonOfElders5A1EAEE244359A855F3409B1F5EDC2D1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_PrisonOfElders.uasset'
+[2017.05.26-18.49.33:826][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_PrisonOfElders.uasset
+[2017.05.26-18.49.33:841][589]LogSavePackage: Save=9.14ms
+[2017.05.26-18.49.33:841][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Reef_Trials459C0E8E46B695115F8D7FADCE00290A.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_Trials.uasset'
+[2017.05.26-18.49.33:843][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_Trials.uasset
+[2017.05.26-18.49.33:858][589]LogSavePackage: Save=9.29ms
+[2017.05.26-18.49.33:858][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Reef_Variks94CA1EFF4D9077FC407AB5B1E1CACEA1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_Variks.uasset'
+[2017.05.26-18.49.33:859][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Reef_Variks.uasset
+[2017.05.26-18.49.33:875][589]LogSavePackage: Save=8.98ms
+[2017.05.26-18.49.33:875][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_ReferAFriend6520E5994D945AFDFE7D3A8EA3231F68.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ReferAFriend.uasset'
+[2017.05.26-18.49.33:876][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_ReferAFriend.uasset
+[2017.05.26-18.49.33:891][589]LogSavePackage: Save=8.86ms
+[2017.05.26-18.49.33:891][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_RiseOfIron8BE5BA3143B1DC830F5F9AA328B7C5D9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_RiseOfIron.uasset'
+[2017.05.26-18.49.33:893][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_RiseOfIron.uasset
+[2017.05.26-18.49.33:900][589]LogSavePackage: Save=3.76ms
+[2017.05.26-18.49.33:900][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Shader275C7EB84DBCC2A4580ADCA27762AEEE.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Shader.uasset'
+[2017.05.26-18.49.33:902][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Shader.uasset
+[2017.05.26-18.49.33:910][589]LogSavePackage: Save=3.85ms
+[2017.05.26-18.49.33:910][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_ShipCDD443D1478D37188F74D8B2DB39D686.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Ship.uasset'
+[2017.05.26-18.49.33:912][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Ship.uasset
+[2017.05.26-18.49.33:927][589]LogSavePackage: Save=8.64ms
+[2017.05.26-18.49.33:927][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_SilverDust07CD2C0A47D5B2FB5D5BEE8A4677FD05.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_SilverDust.uasset'
+[2017.05.26-18.49.33:929][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_SilverDust.uasset
+[2017.05.26-18.49.33:937][589]LogSavePackage: Save=4.11ms
+[2017.05.26-18.49.33:937][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Sparrow_UpgradeE5193E8C497DB6917BF5C498D3DED0A0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Sparrow_Upgrade.uasset'
+[2017.05.26-18.49.33:939][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Sparrow_Upgrade.uasset
+[2017.05.26-18.49.33:951][589]LogSavePackage: Save=6.37ms
+[2017.05.26-18.49.33:951][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_SparrowRacingCBDA5D46486C79750DA948B3E85CB652.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_SparrowRacing.uasset'
+[2017.05.26-18.49.33:953][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_SparrowRacing.uasset
+[2017.05.26-18.49.33:962][589]LogSavePackage: Save=3.90ms
+[2017.05.26-18.49.33:962][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_SRL1F569D354664B9CF6BDB969FCD7ECBB4.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_SRL.uasset'
+[2017.05.26-18.49.33:964][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_SRL.uasset
+[2017.05.26-18.49.33:978][589]LogSavePackage: Save=8.39ms
+[2017.05.26-18.49.33:978][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_StrikeD76815AD4F47D8AC33B5029201EBB888.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Strike.uasset'
+[2017.05.26-18.49.33:980][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Strike.uasset
+[2017.05.26-18.49.33:998][589]LogSavePackage: Save=8.43ms
+[2017.05.26-18.49.33:998][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Strike_HeroicCBDE12684072BE7244DBBDAF4E2F3DFD.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Strike_Heroic.uasset'
+[2017.05.26-18.49.34:000][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Strike_Heroic.uasset
+[2017.05.26-18.49.34:016][589]LogSavePackage: Save=9.36ms
+[2017.05.26-18.49.34:016][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_TakenKing9CE186F14A7808822AD9039E1243E3BF.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_TakenKing.uasset'
+[2017.05.26-18.49.34:017][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_TakenKing.uasset
+[2017.05.26-18.49.34:032][589]LogSavePackage: Save=9.04ms
+[2017.05.26-18.49.34:032][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_BountyGiver1DDEF59A4207376B995E54BA02B36477.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_BountyGiver.uasset'
+[2017.05.26-18.49.34:034][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_BountyGiver.uasset
+[2017.05.26-18.49.34:049][589]LogSavePackage: Save=8.89ms
+[2017.05.26-18.49.34:049][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_CrucibleB1C4D79846FF93629D49A88702AC3CA1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Crucible.uasset'
+[2017.05.26-18.49.34:050][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Crucible.uasset
+[2017.05.26-18.49.34:065][589]LogSavePackage: Save=8.86ms
+[2017.05.26-18.49.34:065][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_Cryptarch58F1780B4856E84985F993A55CC7E1E9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Cryptarch.uasset'
+[2017.05.26-18.49.34:067][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Cryptarch.uasset
+[2017.05.26-18.49.34:082][589]LogSavePackage: Save=8.95ms
+[2017.05.26-18.49.34:082][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_ErisMorn9343D61D4D248B36491920A0CC178774.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_ErisMorn.uasset'
+[2017.05.26-18.49.34:084][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_ErisMorn.uasset
+[2017.05.26-18.49.34:099][589]LogSavePackage: Save=8.54ms
+[2017.05.26-18.49.34:099][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_EververseD8F26AD74D85CD189652DEA6A6BAE6D7.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Eververse.uasset'
+[2017.05.26-18.49.34:101][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Eververse.uasset
+[2017.05.26-18.49.34:118][589]LogSavePackage: Save=8.92ms
+[2017.05.26-18.49.34:118][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_Gunsmith10F8785143DF70A2912E7EA159ED0144.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Gunsmith.uasset'
+[2017.05.26-18.49.34:120][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Gunsmith.uasset
+[2017.05.26-18.49.34:135][589]LogSavePackage: Save=9.23ms
+[2017.05.26-18.49.34:135][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_Outfitter2AFABAB34498FE12B681E1AB3160E8D8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Outfitter.uasset'
+[2017.05.26-18.49.34:137][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Outfitter.uasset
+[2017.05.26-18.49.34:153][589]LogSavePackage: Save=10.41ms
+[2017.05.26-18.49.34:153][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_Shipwright3359F50442BF52E3A3F3868CF31D4E3B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Shipwright.uasset'
+[2017.05.26-18.49.34:156][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Shipwright.uasset
+[2017.05.26-18.49.34:174][589]LogSavePackage: Save=9.71ms
+[2017.05.26-18.49.34:174][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Tower_Speaker2676B0704801CB755CC97FAC7038B092.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Speaker.uasset'
+[2017.05.26-18.49.34:176][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Tower_Speaker.uasset
+[2017.05.26-18.49.34:192][589]LogSavePackage: Save=8.70ms
+[2017.05.26-18.49.34:192][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_TrialsCFDB2223474E691315EBBCA253102EB5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Trials.uasset'
+[2017.05.26-18.49.34:194][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Trials.uasset
+[2017.05.26-18.49.34:203][589]LogSavePackage: Save=4.23ms
+[2017.05.26-18.49.34:203][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Unknown8506A1844ACD75729B10329F0918A776.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Unknown.uasset'
+[2017.05.26-18.49.34:204][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Unknown.uasset
+[2017.05.26-18.49.34:218][589]LogSavePackage: Save=8.04ms
+[2017.05.26-18.49.34:218][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_UnknownActivity3022FF34447F1873834982A3D13FD3FC.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_UnknownActivity.uasset'
+[2017.05.26-18.49.34:220][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_UnknownActivity.uasset
+[2017.05.26-18.49.34:228][589]LogSavePackage: Save=3.81ms
+[2017.05.26-18.49.34:228][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Vanguard99A858364DFADE7B70E326BC0A593D41.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard.uasset'
+[2017.05.26-18.49.34:229][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard.uasset
+[2017.05.26-18.49.34:246][589]LogSavePackage: Save=10.55ms
+[2017.05.26-18.49.34:246][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Vanguard_HunterA73DDA0A441D41DE1120999379B783F8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Hunter.uasset'
+[2017.05.26-18.49.34:248][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Hunter.uasset
+[2017.05.26-18.49.34:266][589]LogSavePackage: Save=10.12ms
+[2017.05.26-18.49.34:266][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Vanguard_QuartermasterE296143A4F6D2A510D3ECC8F918D6DB8.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Quartermaster.uasset'
+[2017.05.26-18.49.34:269][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Quartermaster.uasset
+[2017.05.26-18.49.34:285][589]LogSavePackage: Save=9.91ms
+[2017.05.26-18.49.34:285][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Vanguard_Titan24BC012B4B9D36F5BDAFD58AFFA390B4.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Titan.uasset'
+[2017.05.26-18.49.34:288][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Titan.uasset
+[2017.05.26-18.49.34:302][589]LogSavePackage: Save=8.81ms
+[2017.05.26-18.49.34:302][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Vanguard_WarlockCB58AD854D12485B1081B0986AA4C35D.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Warlock.uasset'
+[2017.05.26-18.49.34:304][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Vanguard_Warlock.uasset
+[2017.05.26-18.49.34:318][589]LogSavePackage: Save=8.78ms
+[2017.05.26-18.49.34:318][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Venus62F7304349F538BEB3CA0E91BFA55FF7.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Venus.uasset'
+[2017.05.26-18.49.34:320][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Venus.uasset
+[2017.05.26-18.49.34:328][589]LogSavePackage: Save=4.06ms
+[2017.05.26-18.49.34:328][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Wpn_LegendaryE957A2A44DF24990719F0A88AAE9B6AA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Legendary.uasset'
+[2017.05.26-18.49.34:330][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Legendary.uasset
+[2017.05.26-18.49.34:337][589]LogSavePackage: Save=4.20ms
+[2017.05.26-18.49.34:337][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Wpn_RareF4F24050449DE1D2285980B6F2A839F3.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Rare.uasset'
+[2017.05.26-18.49.34:339][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Rare.uasset
+[2017.05.26-18.49.34:347][589]LogSavePackage: Save=3.94ms
+[2017.05.26-18.49.34:347][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Wpn_UncommonC846893944DD4150E3FAAEA3ED0174B4.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Uncommon.uasset'
+[2017.05.26-18.49.34:348][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Uncommon.uasset
+[2017.05.26-18.49.34:356][589]LogSavePackage: Save=3.96ms
+[2017.05.26-18.49.34:356][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_Wpn_Upgrade61ABA32246CCD8D8E9F9C29CFE1DC9A2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Upgrade.uasset'
+[2017.05.26-18.49.34:357][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Wpn_Upgrade.uasset
+[2017.05.26-18.49.34:375][589]LogSavePackage: Save=9.08ms
+[2017.05.26-18.49.34:375][589]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Rwd_XurBE9980CA4E916025198D38BB600CC556.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Xur.uasset'
+[2017.05.26-18.49.34:377][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Textures/RewardSources/Rwd_Xur.uasset
+[2017.05.26-18.50.49:835][910]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.26-18.50.54:317][910]LogSavePackage: Save=68.01ms
+[2017.05.26-18.50.54:317][910]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular7246DB0F4C41EE867F4EA6BCD9E871FB.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap'
+[2017.05.26-18.50.54:318][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap
+[2017.05.26-18.50.54:462][910]LogSavePackage: Save=20.00ms
+[2017.05.26-18.50.54:462][910]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData0E61EC3F42F966BE5C9F00B5EC972860.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.05.26-18.50.54:463][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.05.26-18.51.22:911][255]LogSavePackage: Save=4.06ms
+[2017.05.26-18.51.22:911][255]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/S_RewardSourceADA53B49415D81D22D428C922CEFFEF0.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/Structs/S_RewardSource.uasset'
+[2017.05.26-18.51.22:913][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Blueprints/Structs/S_RewardSource.uasset
+[2017.05.27-03.34.30:666][162]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.05.27-03.34.30:914][163]Cmd: QUIT_EDITOR
+[2017.05.27-03.34.30:938][163]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.27-03.34.30:969][163]LogExit: Preparing to exit.
+[2017.05.27-03.34.31:611][163]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' was aborted.
+[2017.05.27-03.34.31:868][163]LogExit: Editor shut down
+[2017.05.27-03.34.31:869][163]LogExit: Transaction tracking system shut down
+[2017.05.27-03.34.32:106][163]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.27-03.34.32:106][163]LogExit: Object subsystem successfully closed.
+[2017.05.27-03.34.32:125][163]LogD3D11RHI: Shutdown
+[2017.05.27-03.34.32:125][163]LogD3D11RHI: CleanupD3DDevice
+[2017.05.27-03.34.32:218][163]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.27-03.34.32:233][163]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.05.27-03.34.32:233][163]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.05.27-03.34.32:233][163]LogModuleManager: Shutting down and abandoning module WorldBrowser (496)
+[2017.05.27-03.34.32:233][163]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.27-03.34.32:233][163]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.27-03.34.32:233][163]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.27-03.34.32:237][163]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.27-03.34.32:237][163]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.27-03.34.32:237][163]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.27-03.34.32:238][163]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' was aborted.
+[2017.05.27-03.34.32:238][163]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' was aborted.
+[2017.05.27-03.34.32:238][163]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' was aborted.
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.27-03.34.32:238][163]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.27-03.34.32:946][163]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.27-03.34.32:947][163]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.27-03.34.32:990][163]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.27-03.34.32:994][163]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.27-03.34.33:144][163]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.05.27-03.34.33:145][163]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.05.27-03.34.33:146][163]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.05.27-03.34.33:146][163]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.05.27-03.34.33:146][163]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.05.27-03.34.33:146][163]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.05.27-03.34.33:148][163]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.05.27-03.34.33:148][163]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.05.27-03.34.33:148][163]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.05.27-03.34.33:148][163]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.05.27-03.34.33:249][163]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (214)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (212)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (208)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module WmfMedia (202)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module MfMedia (200)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (196)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module VREditor (194)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (192)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (190)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module FunctionalTesting (188)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (186)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module AssetTools (180)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2017.05.27-03.34.33:349][163]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (178)
+[2017.05.27-03.34.33:350][163]LogModuleManager: Shutting down and abandoning module SlateReflector (172)
+[2017.05.27-03.34.33:350][163]LogModuleManager: Shutting down and abandoning module Slate (170)
+[2017.05.27-03.34.33:350][163]LogModuleManager: Shutting down and abandoning module EditorStyle (168)
+[2017.05.27-03.34.33:352][163]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (166)
+[2017.05.27-03.34.33:352][163]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (164)
+[2017.05.27-03.34.33:352][163]LogModuleManager: Shutting down and abandoning module XAudio2 (162)
+[2017.05.27-03.34.33:352][163]LogModuleManager: Shutting down and abandoning module Networking (160)
+[2017.05.27-03.34.33:352][163]LogModuleManager: Shutting down and abandoning module Core (158)
+[2017.05.27-03.34.33:352][163]LogModuleManager: Shutting down and abandoning module AssetRegistry (156)
+[2017.05.27-03.34.33:496][163]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.27-03.34.33:496][163]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' was aborted.
+[2017.05.27-03.34.33:496][163]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.27-03.34.33:496][163]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (155)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module PhysXFormats (150)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module MeshUtilities (148)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (145)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (143)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module PropertyEditor (141)
+[2017.05.27-03.34.33:499][163]LogModuleManager: Shutting down and abandoning module DerivedDataCache (138)
+[2017.05.27-03.34.33:552][163]LogDerivedDataCache: Shutdown
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module TargetPlatform (136)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (135)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (133)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (131)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (129)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (127)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (125)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (123)
+[2017.05.27-03.34.33:552][163]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (121)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (119)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module ImageWrapper (118)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (115)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (113)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (111)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (109)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (107)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (105)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (103)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (101)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (99)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Messaging (97)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (95)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (93)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (91)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (89)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (87)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (85)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (83)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (81)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (79)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (67)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (65)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (63)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (61)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (59)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module OculusRift (52)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module GearVR (50)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.05.27-03.34.33:553][163]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.05.27-03.34.33:553][163]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.05.27-03.34.33:554][163]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.27-03.34.33:554][163]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.27-03.34.33:554][163]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.27-03.34.33:554][163]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.27-03.34.33:554][163]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D3737AC-48A3-D3DB-A3F2-89BA0635E850%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=6b2ddadf4c5a8bbf49ba50ae59c652c1%7C049a09598b90443da8e8e30d4d2b8ded%7C732e9ea2-b7f5-4be8-a08a-9afd69cb1240&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.27-03.34.33:577][163]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.27-03.34.33:578][163]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.27-03.34.33:578][163]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.27-03.34.33:578][163]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.27-03.34.33:578][163]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.27-03.34.33:578][163]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.27-03.34.33:582][163]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.27-03.34.33:583][163]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.27-03.34.33:583][163]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.27-03.34.33:583][163]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.27-03.34.33:584][163]LogExit: Exiting.
+[2017.05.27-03.34.33:588][163]Log file closed, 05/26/17 20:34:33
