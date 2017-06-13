@@ -1,0 +1,700 @@
+﻿Log file open, 06/06/17 12:32:56
+LogInit:Display: Running engine for game: DestinyRedux
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(893390292) SRandInit(893390292).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073463
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.06-19.32.57:596][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-19.32.57:596][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.06-19.32.57:605][  0]LogInit: Computer: CLU
+[2017.06.06-19.32.57:605][  0]LogInit: User: Steven4K
+[2017.06.06-19.32.57:605][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.06-19.32.57:605][  0]LogInit: High frequency timer resolution =3.914063 MHz
+[2017.06.06-19.32.57:605][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.06-19.32.57:605][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.06-19.32.57:605][  0]LogMemory: Process Physical Memory: 265.03 MB used, 265.03 MB peak
+[2017.06.06-19.32.57:605][  0]LogMemory: Process Virtual Memory: 262.79 MB used, 262.79 MB peak
+[2017.06.06-19.32.57:605][  0]LogMemory: Physical Memory: 7370.20 MB used,  8962.91 MB free, 16333.11 MB total
+[2017.06.06-19.32.57:605][  0]LogMemory: Virtual Memory: 646.94 MB used,  8962.91 MB free, 134217728.00 MB total
+[2017.06.06-19.32.57:664][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.06-19.32.58:123][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.06-19.32.58:154][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.06.06-19.32.58:154][  0]LogD3D11RHI:       8110/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.06-19.32.58:155][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.06-19.32.58:155][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.06-19.32.58:155][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.06-19.32.58:159][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.06-19.32.58:159][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.06-19.32.58:159][  0]LogWindows: EnumDisplayDevices:
+[2017.06.06-19.32.58:160][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.06.06-19.32.58:160][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.06-19.32.58:160][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.06-19.32.58:160][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.06.06-19.32.58:160][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.06-19.32.58:160][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.06.06-19.32.58:160][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.06.06-19.32.58:160][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.06.06-19.32.58:160][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.06-19.32.58:176][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.06-19.32.58:185][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.06-19.32.58:233][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Intermediate/Shaders/WorkingDirectory/4652/).
+[2017.06.06-19.32.58:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven4K/AppData/Local/Temp/UnrealShaderWorkingDir/D3EFDAB84881BC8FE4F0BA925C0F105E/'.
+[2017.06.06-19.32.58:233][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.06-19.32.59:097][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.06-19.32.59:139][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.06-19.32.59:180][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.06-19.32.59:221][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.06-19.32.59:262][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.06-19.32.59:304][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.06-19.32.59:347][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.06-19.32.59:388][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.06-19.32.59:422][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.06-19.32.59:461][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.06-19.32.59:501][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.06-19.32.59:540][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.06-19.32.59:580][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.06-19.32.59:620][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.06-19.32.59:660][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.06-19.32.59:738][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.06-19.32.59:738][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.06-19.32.59:766][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.06-19.32.59:843][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.06-19.32.59:869][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.06-19.32.59:910][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.06-19.32.59:949][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.06-19.32.59:988][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.06-19.33.00:027][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.06-19.33.00:027][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.06-19.33.00:354][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.06-19.33.00:398][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.06-19.33.00:398][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.06-19.33.00:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.06-19.33.00:398][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.06-19.33.00:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.06-19.33.00:398][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.06-19.33.00:411][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.06-19.33.00:422][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven4K/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.06-19.33.00:429][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.06-19.33.00:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-19.33.00:429][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.06-19.33.00:610][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.06-19.33.00:612][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.06-19.33.00:767][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.06-19.33.00:797][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.06-19.33.00:833][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.06-19.33.00:833][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.06-19.33.00:833][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.06-19.33.01:227][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: destinyredux, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2158004914
+[2017.06.06-19.33.01:266][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.06.06-19.33.01:310][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021574 seconds
+[2017.06.06-19.33.01:314][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.06-19.33.01:314][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.06-19.33.01:314][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.06-19.33.02:510][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.06-19.33.02:543][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.06-19.33.02:890][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.06-19.33.03:170][  0]SourceControl: Info Source control is disabled
+[2017.06.06-19.33.03:195][  0]SourceControl: Info Source control is disabled
+[2017.06.06-19.33.03:231][  0]SourceControl: Info Source control is disabled
+[2017.06.06-19.33.03:264][  0]SourceControl: Info Source control is disabled
+[2017.06.06-19.33.04:148][  0]LogEngine: Initializing Engine...
+[2017.06.06-19.33.04:161][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.06.06-19.33.04:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.06-19.33.04:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2017.06.06-19.33.04:240][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.06-19.33.04:330][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.06-19.33.04:339][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.06-19.33.04:348][  0]LogInit: FAudioDevice initialized.
+[2017.06.06-19.33.04:371][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Steven4K/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.06-19.33.04:380][  0]LogInit: Texture streaming: Enabled
+[2017.06.06-19.33.04:449][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.06-19.33.04:510][  0]LogInit: Transaction tracking system initialized
+[2017.06.06-19.33.04:758][  0]BlueprintLog: New page: Editor Load
+[2017.06.06-19.33.05:391][  0]LocalizationService: Info Localization service is disabled
+[2017.06.06-19.33.05:869][  0]LogConsoleResponse:Display: 
+[2017.06.06-19.33.05:962][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.06-19.33.05:962][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.06-19.33.06:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' took 0.02s
+[2017.06.06-19.33.06:723][  0]SourceControl: Info Source control is disabled
+[2017.06.06-19.33.06:723][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.06-19.33.06:723][  0]LightingResults: New page: Lighting Build
+[2017.06.06-19.33.06:752][  0]MapCheck: New page: Map Check
+[2017.06.06-19.33.06:752][  0]LightingResults: New page: Lighting Build
+[2017.06.06-19.33.07:107][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.06.06-19.33.07:107][  0]LogLinker: Can't find file '/Game/ReDestiny/Textures/ButtonIcons/XboxOne/XboxMainButton'
+[2017.06.06-19.33.08:366][  0]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.06.06-19.33.08:449][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.08:466][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.08:466][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:004][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:004][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:016][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:016][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:028][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:028][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:030][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:030][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:032][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:032][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:046][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:047][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:082][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:092][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:092][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:106][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:106][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:121][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:121][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:126][  0]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.06.06-19.33.09:148][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.09:148][  0]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.10:358][  0]LogAIModule: Creating AISystem for world Level_ShipModular
+[2017.06.06-19.33.10:390][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.06-19.33.10:390][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.06-19.33.10:506][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.569ms to complete.
+[2017.06.06-19.33.10:506][  0]LogFileHelpers: Loading map 'Level_ShipModular' took 3.783
+[2017.06.06-19.33.10:647][  0]LogCollectionManager: Loaded 1 collections in 0.001903 seconds
+[2017.06.06-19.33.10:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' took 0.01s
+[2017.06.06-19.33.10:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' took 0.01s
+[2017.06.06-19.33.10:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' took 0.01s
+[2017.06.06-19.33.10:713][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.06.06-19.33.10:713][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.06.06-19.33.10:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2245 classes and 453 folders.
+[2017.06.06-19.33.10:767][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.06-19.33.10:797][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.06-19.33.10:830][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.06-19.33.10:866][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2017.06.06-19.33.10:963][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.06-19.33.10:968][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.06-19.33.11:022][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.06-19.33.11:022][  0]LogLoad: (Engine Initialization) Total time: 15.16 seconds
+[2017.06.06-19.33.11:022][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.54 seconds
+[2017.06.06-19.33.11:022][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.06-19.33.11:022][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.06-19.33.11:361][  0]LogOcInput: OculusInput pre-init called
+[2017.06.06-19.33.11:381][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.06-19.33.11:382][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-19.33.11:386][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.06-19.33.11:388][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.06-19.33.11:476][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-19.33.11:502][  1]LogRenderer: Reallocating scene render targets to support 1044x592 NumSamples 1 (Frame:2).
+[2017.06.06-19.33.11:709][  1]LogAssetRegistry: Asset discovery search completed in 10.4644 seconds
+[2017.06.06-19.33.11:709][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000005 seconds (found 0 objects)
+[2017.06.06-19.33.11:709][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000014 seconds (updated 0 objects)
+[2017.06.06-19.33.46:256][720]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.46:304][720]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.33.46:305][720]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-19.33.46:418][720]LogSavePackage: Save=65.15ms
+[2017.06.06-19.33.46:418][720]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModular109B8A6A4383A5DD08BA04B4D4D85F47.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.33.46:419][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.33.46:480][720]LogSavePackage: Save=20.87ms
+[2017.06.06-19.33.46:480][720]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData760136D64DD089C8385C62A9CD38B0E9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.33.46:481][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.33.46:486][720]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.34.32:970][294]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.34.33:122][294]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.34.33:122][294]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.34.33:223][294]LogSavePackage: Save=64.74ms
+[2017.06.06-19.34.33:223][294]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModularFC95C553493D7240C326BFB5BEB4900F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.34.33:224][294]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.34.33:276][294]LogSavePackage: Save=15.83ms
+[2017.06.06-19.34.33:276][294]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData79EB801742E620FE6816039025E4A5D5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.34.33:277][294]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.34.33:281][294]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.36.30:966][ 45]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.06.06-19.36.31:538][ 45]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-19.36.31:539][ 45]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.06-19.36.49:483][511]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.06-19.37.53:506][793]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.37.53:657][793]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.37.53:679][793]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.37.53:803][793]LogSavePackage: Save=65.09ms
+[2017.06.06-19.37.53:803][793]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModular26AC272942AB0BB370D3FB914EAE94B5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.37.53:805][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.37.53:854][793]LogSavePackage: Save=15.94ms
+[2017.06.06-19.37.53:854][793]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData0AFDFDFA46E48CCDA3BCC6AA79FE67D3.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.37.53:855][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.37.53:858][793]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.39.10:902][ 76]LogSlate: Took 0.001299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.06-19.39.54:293][824]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.39.54:467][824]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.39.56:287][824]LogSavePackage: Save=63.77ms
+[2017.06.06-19.39.56:287][824]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleReqB6ECC89F456B8DDA08D75E919CAE8036.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/SingleReq.uasset'
+[2017.06.06-19.39.56:290][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/SingleReq.uasset
+[2017.06.06-19.39.56:310][824]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.39.56:416][824]LogSavePackage: Save=65.48ms
+[2017.06.06-19.39.56:416][824]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModular63DA0F864D964889514429AC182F22C5.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.39.56:417][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.39.56:474][824]LogSavePackage: Save=17.02ms
+[2017.06.06-19.39.56:474][824]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData06D4178D47B3D78CBF93A1B58438C0AA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.39.56:475][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.39.56:479][824]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.40.46:237][150]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.40.46:387][150]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.40.47:673][150]LogSavePackage: Save=62.36ms
+[2017.06.06-19.40.47:673][150]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleReq8750AE2645A76EFF4B67989FF8D29C34.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/SingleReq.uasset'
+[2017.06.06-19.40.47:676][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/DetailsSections/SingleReq.uasset
+[2017.06.06-19.40.47:698][150]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.40.47:802][150]LogSavePackage: Save=66.86ms
+[2017.06.06-19.40.47:802][150]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModular39D87F5348184A705F326BB3744F5278.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.40.47:803][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.40.47:861][150]LogSavePackage: Save=15.92ms
+[2017.06.06-19.40.47:861][150]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltDataE1B9D44043D8AB96F57928AC92C78A0F.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.40.47:862][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.40.47:866][150]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.41.37:183][581]BlueprintLog: New page: Compile SingleReq
+[2017.06.06-19.41.37:230][581]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.41.37:230][581]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.41.37:303][581]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.41.37:303][581]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.41.37:338][581]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:444][288]BlueprintLog: New page: Compile SingleQuest
+[2017.06.06-19.42.06:542][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:545][288]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.06.06-19.42.06:619][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:619][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:623][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:623][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:654][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:654][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:741][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:804][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:810][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:813][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:828][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:844][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:856][288]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.06:872][288]LogSavePackage: Save=135.73ms
+[2017.06.06-19.42.06:872][288]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleQuest2F3D5ED74142B25AF1501B98ADAD32A1.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/SingleQuest.uasset'
+[2017.06.06-19.42.06:874][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/SingleQuest.uasset
+[2017.06.06-19.42.07:306][320]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.42.07:471][320]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.07:471][320]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.07:573][320]LogSavePackage: Save=65.06ms
+[2017.06.06-19.42.07:573][320]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModular9FA4291D4D949CA8906320A316D61FD9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.42.07:574][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.42.07:634][320]LogSavePackage: Save=20.31ms
+[2017.06.06-19.42.07:634][320]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltDataA0884A6E457CC5ECB4EC38ACB2AD30B3.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.42.07:635][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.42.07:640][320]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.42.48:819][540]BlueprintLog: New page: Compile SingleQuest
+[2017.06.06-19.42.48:916][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.48:918][540]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.06.06-19.42.48:984][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.48:984][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.48:994][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.48:994][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:024][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:024][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:103][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:165][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:172][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:175][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:189][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:205][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:218][540]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:234][540]LogSavePackage: Save=135.85ms
+[2017.06.06-19.42.49:234][540]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleQuest032325D64F46DC40EAB9B1AC0DFCB312.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/SingleQuest.uasset'
+[2017.06.06-19.42.49:236][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/SingleQuest.uasset
+[2017.06.06-19.42.49:704][575]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.42.49:867][575]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:867][575]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.42.49:965][575]LogSavePackage: Save=64.83ms
+[2017.06.06-19.42.49:965][575]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModularC974E5EF4BD15A05F7360C9EB0ABA6FA.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.42.49:966][575]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.42.50:025][575]LogSavePackage: Save=17.55ms
+[2017.06.06-19.42.50:025][575]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltDataBC88C40842B36FF976294A8409C7BBE9.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.42.50:026][575]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.42.50:029][575]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.43.28:840][410]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.06-19.43.28:847][410]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.06-19.43.28:848][410]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.06-19.43.28:852][410]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-19.43.28:855][410]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-19.43.28:861][410]LogSlate: Took 0.001087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.06-19.43.28:862][410]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.06-19.43.58:088][868]BlueprintLog: New page: Compile SingleQuest
+[2017.06.06-19.43.58:185][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:187][868]LogBlueprint:Warning: [QuestInfoPage] 'CurStepTooltip' variable not found. Base class was probably changed.
+[2017.06.06-19.43.58:257][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:257][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:263][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:263][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:297][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:297][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:337][868]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.06-19.43.58:379][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:446][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:452][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:455][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:470][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:486][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:499][868]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.58:515][868]LogSavePackage: Save=140.41ms
+[2017.06.06-19.43.58:515][868]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/SingleQuest770934EA4F1D9DB3C820CDB43D42A560.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/SingleQuest.uasset'
+[2017.06.06-19.43.58:518][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/SingleQuest.uasset
+[2017.06.06-19.43.58:875][895]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.43.59:039][895]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.59:039][895]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.43.59:144][895]LogSavePackage: Save=64.77ms
+[2017.06.06-19.43.59:144][895]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModularA36580E6499CEC2C738350B26F0905A2.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.43.59:145][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.43.59:196][895]LogSavePackage: Save=15.89ms
+[2017.06.06-19.43.59:196][895]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltData86FCD4AC4B0084CB3EBCC081392CBD9C.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.43.59:197][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.43.59:201][895]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.46.20:599][414]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.06.06-19.46.20:669][414]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.20:669][414]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.20:762][414]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.20:762][414]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.20:797][414]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.20:930][414]LogSavePackage: Save=59.38ms
+[2017.06.06-19.46.20:930][414]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_TooltipA3E76868417DA48626A807BB46E30CB6.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.06.06-19.46.20:932][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.06.06-19.46.38:261][881]LogTemp: Repeting last play command: Standalone Game
+[2017.06.06-19.46.38:429][881]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.38:429][881]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.46.38:535][881]LogSavePackage: Save=64.90ms
+[2017.06.06-19.46.38:535][881]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/UEDPCLevel_ShipModular857F444F47B807BB12B47A8E7B92579B.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap'
+[2017.06.06-19.46.38:537][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Autosaves/Game/ReDestiny/Maps/UEDPCLevel_ShipModular.umap
+[2017.06.06-19.46.38:594][881]LogSavePackage: Save=16.05ms
+[2017.06.06-19.46.38:594][881]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Level_ShipModular_BuiltDataB1E8A2984366A2654D34629441D64736.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset'
+[2017.06.06-19.46.38:595][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Maps/Level_ShipModular_BuiltData.uasset
+[2017.06.06-19.46.38:599][881]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.06.06-19.54.09:561][409]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.06-19.56.58:285][344]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.06.06-19.56.58:404][344]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.56.58:404][344]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.56.58:437][344]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.56.58:552][344]LogSavePackage: Save=60.43ms
+[2017.06.06-19.56.58:552][344]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_Tooltip102C2FD8415DD3BD412970BEC9C57F52.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.06.06-19.56.58:555][344]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.06.06-19.57.35:136][786]BlueprintLog: New page: Compile Reputation_Tooltip
+[2017.06.06-19.57.35:249][786]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.57.35:249][786]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.57.35:281][786]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-19.57.35:404][786]LogSavePackage: Save=60.55ms
+[2017.06.06-19.57.35:404][786]LogSavePackage: Moving '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Reputation_TooltipABBFD0A2443F039B3375BB8C88C7593E.tmp' to '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset'
+[2017.06.06-19.57.35:407][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/ReDestiny/Widgets/ProgressMenu/Reputation_Tooltip.uasset
+[2017.06.06-20.18.14:307][556]LogScriptSerialization:Warning: Error: Unknown bytecode 0x3C; ignoring it
+[2017.06.06-20.18.14:559][557]Cmd: QUIT_EDITOR
+[2017.06.06-20.18.14:582][557]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.06-20.18.14:603][557]LogExit: Preparing to exit.
+[2017.06.06-20.18.15:581][557]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' was aborted.
+[2017.06.06-20.18.15:647][557]LogExit: Editor shut down
+[2017.06.06-20.18.15:647][557]LogExit: Transaction tracking system shut down
+[2017.06.06-20.18.15:750][557]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.06-20.18.15:751][557]LogExit: Object subsystem successfully closed.
+[2017.06.06-20.18.15:763][557]LogD3D11RHI: Shutdown
+[2017.06.06-20.18.15:763][557]LogD3D11RHI: CleanupD3DDevice
+[2017.06.06-20.18.15:839][557]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module WorldBrowser (496)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.06-20.18.15:849][557]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.06-20.18.15:849][557]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.06-20.18.15:850][557]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Collections/' was aborted.
+[2017.06.06-20.18.15:850][557]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/Developers/Steven4K/Collections/' was aborted.
+[2017.06.06-20.18.15:850][557]LogDirectoryWatcher: A directory notification for 'C:/Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Saved/Collections/' was aborted.
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.06-20.18.15:850][557]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.06-20.18.16:360][557]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.06-20.18.16:360][557]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.06-20.18.16:360][557]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.06-20.18.16:360][557]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.06-20.18.16:360][557]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.06-20.18.16:361][557]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.06-20.18.16:403][557]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.06-20.18.16:412][557]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.06.06-20.18.16:496][557]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.06.06-20.18.16:497][557]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.06.06-20.18.16:498][557]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.06.06-20.18.16:498][557]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.06.06-20.18.16:498][557]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.06.06-20.18.16:498][557]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.06.06-20.18.16:498][557]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.06.06-20.18.16:600][557]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (214)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (212)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module FacialAnimation (210)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (208)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module WmfMedia (202)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module MfMedia (200)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module MediaAssets (198)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (196)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module VREditor (194)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (192)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (190)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module FunctionalTesting (188)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (186)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module AssetTools (180)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (178)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module SlateReflector (172)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module Slate (170)
+[2017.06.06-20.18.16:700][557]LogModuleManager: Shutting down and abandoning module EditorStyle (168)
+[2017.06.06-20.18.16:702][557]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (166)
+[2017.06.06-20.18.16:702][557]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (164)
+[2017.06.06-20.18.16:702][557]LogModuleManager: Shutting down and abandoning module XAudio2 (162)
+[2017.06.06-20.18.16:702][557]LogModuleManager: Shutting down and abandoning module Networking (160)
+[2017.06.06-20.18.16:702][557]LogModuleManager: Shutting down and abandoning module Core (158)
+[2017.06.06-20.18.16:702][557]LogModuleManager: Shutting down and abandoning module AssetRegistry (156)
+[2017.06.06-20.18.16:842][557]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.06-20.18.16:842][557]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Steven4K/Desktop/ReDestiny/DestinyRedux/Content/' was aborted.
+[2017.06.06-20.18.16:842][557]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.06-20.18.16:842][557]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (155)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module PhysXFormats (150)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module MeshUtilities (148)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (145)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (143)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module PropertyEditor (141)
+[2017.06.06-20.18.16:843][557]LogModuleManager: Shutting down and abandoning module DerivedDataCache (138)
+[2017.06.06-20.18.16:942][557]LogDerivedDataCache: Shutdown
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module TargetPlatform (136)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (135)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (133)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (131)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (129)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (127)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (125)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (123)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (121)
+[2017.06.06-20.18.16:942][557]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (119)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module ImageWrapper (118)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (115)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (113)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (111)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (109)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (107)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (105)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (103)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (101)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (99)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Messaging (97)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (95)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (93)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (91)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (89)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (87)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (85)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (83)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (81)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (79)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (67)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (65)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (63)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (61)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (59)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module OculusRift (52)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module GearVR (50)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (48)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (46)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2017.06.06-20.18.16:943][557]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.06.06-20.18.16:943][557]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.06-20.18.16:943][557]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.06-20.18.16:943][557]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.06-20.18.16:943][557]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB847DCFD-41E4-40D6-714D-3FB4605AD18D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=6b2ddadf4c5a8bbf49ba50ae59c652c1%7C049a09598b90443da8e8e30d4d2b8ded%7C732e9ea2-b7f5-4be8-a08a-9afd69cb1240&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.06-20.18.16:951][557]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.06-20.18.16:952][557]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.06-20.18.16:952][557]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.06-20.18.16:952][557]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.06-20.18.16:952][557]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.06-20.18.16:952][557]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.06-20.18.16:954][557]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.06-20.18.16:955][557]LogExit: Exiting.
+[2017.06.06-20.18.16:969][557]Log file closed, 06/06/17 13:18:16
